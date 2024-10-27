@@ -1,0 +1,196 @@
+{
+  "menu": "How can we help?",
+  "menu-news": "News",
+  "hero": {
+    "title": "Who We Are",
+    "var": "The ",
+    "link": "about-us",
+    "information": "LFA Lawyers is a Mozambican law firm that provides high-quality services in various branches of law. It has provided consulting and legal advisory services, sponsorship, and legal assistance to several institutions. LFA Advogados is a Mozambican law firm that offers its clients high-quality services in various branches of law.",
+    "information1": "The lawyers at LFA are committed to meeting the needs of clients, positioning themselves as partners in any project undertaken in Mozambique. Our team is prepared to support both Mozambican and foreign clients interested in investing in the country, in any province, as well as Mozambican companies looking to expand their investments abroad.",
+    "information2": "We continuously invest in the training of our team, enhancing both technical skills and personal abilities, to ensure that our clients receive robust and innovative legal solutions.",
+    "var1": "LFA Lawyers",
+    "text": "is a Mozambican law firm providing high-quality services in various areas of law.",
+    "text2": "We have provided consulting and legal advisory services, sponsorship, and legal assistance to several institutions.",
+
+    "mission": {
+      "title": "Mission",
+      "text": "Our mission is to offer excellent legal services, with quality and within deadlines, aiming for practical solutions that meet our clients' needs. We always act with loyalty, diligence, discretion, and confidentiality, ensuring maximum trust and efficiency in every case."
+    }
+  },
+  "link": {
+    "text": "Learn More"
+  },
+  "values": {
+    "title": "Values",
+    "link": "values",
+    "information": "Based on a rigorous ethical code, LFA Advogados seeks excellence to efficiently meet the needs of its clients, focusing on providing high-quality services with real added value. At LFA Advogados, excellence in client service is a priority, guided by a strict ethical code. We always strive to respond efficiently to our clients' needs, offering high-quality legal services with true added value.",
+    "information1": "We value the personal and professional development of our lawyers and continuously invest in cutting-edge technology. Our vision is for LFA Advogados to become a lasting institution beyond the founding partners and current members. The team at LFA Advogados is wholly dedicated to client matters with a firm commitment to rigor, responsibility, and competence.",
+    "information2": "Our primary goal is to foster a culture of meritocracy and effective collaboration. We strive to provide exceptional legal services and innovative solutions that meet our clients' needs and expectations. To achieve this, we invest in the continuous and specialized training of our lawyers, both in Mozambique and abroad.",
+    "text": "Based on a strict ethical code, LFA Lawyers seeks excellence to efficiently meet the needs of its clients, focusing on delivering quality services with real added value.",
+    "value1": "Excellence",
+    "text1": "We provide services at the highest level of quality, always striving to exceed our clients' expectations.",
+    "value2": "Loyalty",
+    "text2": "We act with total commitment, always putting our clients' interests first.",
+    "value3": "Diligence",
+    "text3": "We handle each case with care and dedication, ensuring personalized and effective solutions.",
+    "value4": "Discretion and Confidentiality",
+    "text4": "We guarantee absolute discretion at every stage, preserving the integrity and trust of our clients.",
+    "value5": "Ethics",
+    "text5": "Our actions are guided by strong principles, ensuring transparency and integrity in all relationships."
+  },
+
+  "whyLfa": {
+    "title": "Why Choose LFA Advogados?",
+    "value1": "Excellence and Quality",
+    "text1": "We offer high-level legal services with effective and personalized solutions, always meeting the specific needs of each client.",
+    "value2": "Agile and Efficient Service",
+    "text2": "We prioritize delivering timely results, ensuring that clients receive quick responses and decisive actions.",
+    "value3": "Trust and Confidentiality",
+    "text3": "We act with complete loyalty and confidentiality, ensuring absolute discretion and a trusting relationship in every case."
+  },
+  "team": {
+    "name": "team",
+    "title": "Team",
+    "text": "LFA Advogados, Lda has a team of Senior Lawyers with more than 5 years of experience in legal practice and over 10 years in areas such as university teaching, legal advisory, and consultancy. In addition, our Trainee Lawyers, duly registered with the Bar Association, bring more than 5 years of experience in various areas of law.",
+    "text1": "With a highly competent, dynamic, and dedicated team, we provide services to a wide range of clients, both national and international, including individuals and large multinational corporations. We operate in both Portuguese and English, also offering document translation services, as well as interpreter and simultaneous translation services during hearings and events."
+  },
+  "skills": {
+    "link": "area-of-pratice",
+    "title": "Areas of Practice",
+    "text": "LFA Lawyers, Ltd. is a law firm that provides consulting and legal advisory services, judicial sponsorship, and legal assistance in various matters, with a major focus on the following areas: Labor Law, Commercial Law, Administrative Law, Criminal Law, Tax Law, Civil Law, and related Procedural Law.",
+    "text2": "LFA Advogados, Lda offers specialized services in the following areas of law:",
+    "area1": {
+      "title": "Labor Law",
+      "description": "Drafting of contracts, internal regulations, disciplinary procedures, contract terminations, occupational health and safety, and compliance with tax and social security obligations."
+    },
+    "area2": {
+      "title": "Commercial Law",
+      "description": "Company formation, contract management, procurement of goods and services, and issuing legal opinions."
+    },
+    "area3": {
+      "title": "Debt Recovery",
+      "description": "Measures for debt recovery, from extrajudicial demands to judicial proceedings."
+    },
+    "area4": {
+      "title": "Administrative Law",
+      "description": "Drafting and challenging administrative acts, advising on contracts, and overseeing public procurement."
+    },
+    "area5": {
+      "title": "Litigation (Civil and Criminal Law)",
+      "description": "Judicial representation in civil, criminal, and administrative cases, including attendance at hearings."
+    },
+    "area6": {
+      "title": "Tax Law",
+      "description": "Tax consultancy, tax planning, assistance with investments, and administrative appeals."
+    },
+    "area7": {
+      "title": "Legal Reforms",
+      "description": "Assistance in drafting and reforming laws and regulations."
+    },
+    "area8": {
+      "title": "International Trade",
+      "description": "Advisory on the importation of goods and international contracts."
+    },
+    "area9": {
+      "title": "Foreign Advisory",
+      "description": "Regularization of residence and employment status for foreigners in Mozambique."
+    },
+    "area10": {
+      "title": "Real Estate and Construction",
+      "description": "Advisory on the purchase, sale, and licensing of properties and land."
+    },
+    "area11": {
+      "title": "Legal Training",
+      "description": "Short-term legal training for client staff on legal matters."
+    }
+  },
+  "contacts": {
+    "name": "contact",
+    "title": "Contact",
+    "adress": "Address",
+    "text": "Av. Ahmed Sekou Touré 1154 R/C, Bairro Polana Cimento A. Maputo - Mozambique"
+  },
+  "placeholders": {
+    "var1": "Name",
+    "var2": "Email",
+    "var3": "Phone",
+    "var4": "Type your message here.",
+    "var5": "Send"
+  },
+
+  "article": {
+    "name": "news",
+    "title": "Latest News",
+    "news1": {
+      "title": "MIC Hired LFA Lawyers to Develop the Legal Framework for Trade Safeguard Measures",
+      "intro": "The Ministry of Industry and Commerce of Mozambique (MIC) previously hired LFA Lawyers Lda, a private entity, to develop the legal framework for the country's Trade Safeguard Measures. These emergency, temporary, and non-discriminatory measures were created to protect the national industry and the Mozambican economy from the excessive increase in imports that cause, or threaten to cause, significant harm.",
+      "body": {
+        "section1": {
+          "title": "Purpose of Trade Safeguard Measures",
+          "text": "The Trade Safeguard Measures aim to prevent the negative impact of imports of certain products from severely affecting the economy of the importing state, promoting an effective response to preserve the competitiveness and sustainability of the national industry."
+        },
+        "section2": {
+          "title": "Public Consultation Seminar",
+          "text": "As part of this process, LFA Lawyers organized the Public Consultation Seminar in the Central Zone on the Proposed Legal Framework for Trade Safeguard Measures, which took place on March 5, from 9:00 AM to 11:00 AM, at Hotel Sena, in the city of Beira. The event was attended by 20 participants in person, in line with the public health restrictions of the time. To allow for broader participation, the seminar was also streamed online, enabling others to follow and interact through digital platforms."
+        },
+        "section3": {
+          "title": "Seminar Importance",
+          "text": "This seminar was a crucial opportunity to gather contributions from various actors in the Mozambican economy, ensuring that the proposed legal framework would meet the country's needs and protect it from the negative impacts of international trade. Specialists, businesspeople, and civil society representatives played an essential role in the discussions that helped shape the future of trade safeguard policies in Mozambique."
+        }
+      }
+    },
+    "news2": {
+      "title": "LFA Lawyers Hired to Develop Study on Trade Safeguard Measures in Mozambique",
+      "intro": "The Government of Mozambique, through the Ministry of Industry and Commerce (MIC), hired LFA Lawyers Lda to conduct an in-depth study on the implementation of Trade Safeguard Measures in the country. This study aims to develop the necessary legal framework to protect the national industry from the harmful effects of excessive imports of certain products.",
+      "body": {
+        "section1": {
+          "title": "Purpose of Trade Safeguard Measures",
+          "text": "The Trade Safeguard Measures are emergency and temporary interventions applied when an increase in imports threatens to cause serious damage to the local industry. The study conducted by LFA Lawyers will analyze in detail the scenarios requiring the application of these measures, proposing solutions to ensure the protection of the Mozambican economy and the balance in international trade."
+        },
+        "section2": {
+          "title": "LFA Lawyers' Experience",
+          "text": "LFA Lawyers were selected by the Government due to their experience and technical capacity in the field of commercial law and economic protection. The firm is responsible for conducting a comprehensive analysis of the current market conditions, identifying vulnerable sectors, and proposing best international practices for the implementation of these safeguards."
+        },
+        "section3": {
+          "title": "Impact of the Study",
+          "text": "This study is an essential step to ensure that Mozambique has legal mechanisms that can be activated in emergency situations, allowing for the protection of the local industry in the face of global economic threats. Through this process, the country expects to strengthen its legal and economic foundations, ensuring competitiveness in the international commercial arena."
+        },
+        "section4": {
+          "title": "Regional Seminars",
+          "text": "The study project will culminate in the holding of several regional public consultation seminars, where stakeholders will have the opportunity to provide valuable input for the legal framework to be implemented."
+        }
+      }
+    },
+    "news3": {
+      "title": "Nampula Hosts Third Seminar on Trade Safeguard Measures to Protect Mozambican Industry",
+      "intro": "On March 17, 2021, the Seminar on the Legal Proposal for Trade Safeguard Measures was held in Nampula at the Grand Plaza Hotel. This was the third seminar on the topic, following meetings in Maputo and Beira, as part of a national effort to protect Mozambican industry from the negative consequences of excessive imports.",
+      "body": {
+        "section1": {
+          "title": "Leadership and Objectives",
+          "text": "LFA Lawyers, the firm hired by the Government of Mozambique, in partnership with the Ministry of Industry and Commerce (MIC), led discussions on the implementation of Trade Safeguard Measures. These measures consist of emergency and temporary actions applied when the increase in imports of certain products threatens to cause serious harm to the national industry. They are seen as essential to ensure the sustainability and competitiveness of the national economy in the face of challenges posed by international trade."
+        },
+        "section2": {
+          "title": "Key Participants and Discussions",
+          "text": "The seminar in Nampula brought together businesspeople, experts, and public sector representatives, who discussed the proposals and provided valuable contributions to the development of a robust legal framework that will protect the Mozambican economy during times of crisis."
+        }
+      }
+    }
+  },
+  "joinUs": {
+    "link": "join-us",
+    "title": "Join Us",
+    "information": "Based on a rigorous ethical code, LFA Advogados seeks excellence to efficiently meet the needs of its clients, focusing on providing high-quality services with real added value. At LFA Advogados, excellence in client service is a priority, guided by a strict ethical code. We always strive to respond efficiently to our clients' needs, offering high-quality legal services with true added value.",
+    "information1": "We value the personal and professional development of our lawyers and continuously invest in cutting-edge technology. Our vision is for LFA Advogados to become a lasting institution beyond the founding partners and current members. The team at LFA Advogados is wholly dedicated to client matters with a firm commitment to rigor, responsibility, and competence.",
+    "information2": "Our primary goal is to foster a culture of meritocracy and effective collaboration. We strive to provide exceptional legal services and innovative solutions that meet our clients' needs and expectations. To achieve this, we invest in the continuous and specialized training of our lawyers, both in Mozambique and abroad.",
+
+    "text": ""
+  },
+  "notFound": {
+    "text1": "Page not found",
+    "text2": "Sorry, the page you are looking for does not exist.",
+    "text3": "Return to home page"
+  },
+  "footer": {
+    "text": "2024 FLA LAWYERS. All rights reserved"
+  }
+}

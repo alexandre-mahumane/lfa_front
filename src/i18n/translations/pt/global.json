@@ -1,0 +1,193 @@
+{
+  "menu": "Como podemos ajudar?",
+  "menu-news": "Notícias",
+  "hero": {
+    "title": "Quem Nós Somos",
+    "link": "quem-somos",
+    "information": "A LFA Advogados é uma Sociedade de advogados moçambicana que presta aos seus Clientes serviços de alta qualidade nos diversos ramos do Direito. Tem prestado serviços de consultoria e assessoria jurídica, patrocínio e assistência jurídica a várias instituições. A LFA Advogados é uma sociedade de advogados moçambicana que oferece aos seus clientes serviços de elevada qualidade nos diversos ramos do Direito.",
+    "information1": "Os advogados da LFA são comprometidos com a satisfação das necessidades dos clientes, posicionando-se como parceiros em qualquer projeto realizado em Moçambique. Nossa equipa está preparada para apoiar tanto clientes moçambicanos quanto estrangeiros interessados em investir no país, em qualquer província, assim como empresas moçambicanas que queiram expandir seus investimentos no exterior.",
+    "information2": "Investimos continuamente na formação da nossa equipa, aprimorando tanto as competências técnicas quanto as habilidades pessoais, para garantir que nossos clientes recebam soluções jurídicas robustas e inovadoras.",
+    "var": "A ",
+    "var1": "LFA Advogados",
+    "text": "é uma Sociedade de advogados moçambicana que presta aos seus Clientes serviços de alta qualidade nos diversos ramos do Direito.",
+    "text2": "Tem prestado serviços de consultoria e assessoria jurídica, patrocínio e assistência jurídica a várias instituições.",
+    "mission": {
+      "title": "Missão",
+      "text": "Nossa missão é oferecer serviços jurídicos de excelência, com qualidade e dentro dos prazos, visando soluções práticas que atendam às necessidades dos nossos clientes. Actuamos sempre com lealdade, zelo, sigilo e confidencialidade, garantindo a máxima confiança e eficiência em cada processo."
+    }
+  },
+  "link": {
+    "text": "Saiba Maís"
+  },
+  "values": {
+    "title": "Valores",
+    "link": "valores",
+    "information": "Com base num rigoroso código ético, a LFA Advogados busca a excelência com vista a responder da forma mais eficiente às necessidades dos seus Clientes, apostando na prestação de serviços de qualidade com efectivo valor acrescentado. Na LFA Advogados, a excelência no atendimento aos nossos clientes é uma prioridade, guiada por um código ético rigoroso. Buscamos sempre responder de forma eficiente às necessidades dos nossos clientes, oferecendo serviços jurídicos de alta qualidade com verdadeiro valor agregado.",
+    "information1": "Valorizamos o desenvolvimento pessoal e profissional dos nossos advogados e investimos continuamente em tecnologia de ponta. Nossa visão é que a LFA Advogados se torne uma instituição duradoura, além dos sócios fundadores e dos membros atuais. A equipe da LFA Advogados dedica-se integralmente aos assuntos dos clientes, com um compromisso firme com rigor, responsabilidade e competência.",
+    "information2": "Nosso principal objetivo é promover uma cultura de meritocracia e colaboração eficaz. Buscamos fornecer serviços jurídicos excepcionais e soluções inovadoras que atendam às necessidades e expectativas dos nossos clientes. Para isso, investimos na formação contínua e especializada dos nossos advogados, tanto em Moçambique quanto no exterior.",
+    "value": "Excelência",
+    "text1": "Prestamos serviços com o mais alto nível de qualidade, buscando sempre superar as expectativas dos nossos clientes.",
+    "value2": "Lealdade",
+    "text2": "Actuamos com total comprometimento, sempre colocando os interesses dos nossos clientes em primeiro lugar.",
+    "value3": "Zelo",
+    "text3": "Cuidamos de cada caso com atenção e dedicação, assegurando soluções personalizadas e eficazes.",
+    "value4": "Sigilo e Confidencialidade",
+    "text4": "Garantimos discrição absoluta em todas as etapas, preservando a integridade e a confiança dos nossos clientes.",
+    "value5": "Ética",
+    "text5": "Nossas acções são guiadas por princípios sólidos, garantindo transparência e integridade em todas as relações.",
+    "text": "Com base num rigoroso código ético, a LFA Advogados busca a excelência com vista a responder da forma mais eficiente às necessidades dos seus Clientes, apostando na prestação de serviços de qualidade com efectivo valor acrescentado."
+  },
+  "team": {
+    "name": "equipa",
+    "title": "Equipa",
+    "text": "A LFA Advogados, Lda conta com uma equipe de Advogados Seniores, com mais de 5 anos de experiência em advocacia e mais de 10 anos em áreas como docência universitária, assessoria e consultoria jurídica. Além disso, nossos Advogados Estagiários, devidamente inscritos na Ordem dos Advogados, trazem mais de 5 anos de experiência em diversas áreas do Direito.",
+    "text1": "Com uma equipe altamente competente, dinâmica e comprometida, oferecemos serviços a uma ampla gama de clientes, tanto nacionais quanto internacionais, incluindo particulares e grandes multinacionais. Atendemos em português e inglês, oferecendo também tradução de documentos e serviços de intérprete e tradução simultânea em audiências e eventos."
+  },
+  "whyLfa": {
+    "title": "Por que Escolher a LFA Advogados?",
+    "value1": "Excelência e Qualidade",
+    "text1": "Oferecemos serviços jurídicos de alto nível, com soluções eficazes e personalizadas, sempre atendendo às necessidades específicas de cada cliente.",
+    "value2": "Atendimento Ágil e Eficiente",
+    "text2": "Priorizamos a entrega de resultados em tempo útil, garantindo que os clientes recebam respostas rápidas e acções assertivas.",
+    "value3": "Confiança e Sigilo",
+    "text3": "Actuamos com total lealdade e confidencialidade, garantindo discrição absoluta e uma relação de confiança em cada processo."
+  },
+  "skills": {
+    "link": "areas-de-competencia",
+    "title": "Áreas de Actuação",
+    "text": "A LFA Advogados, Lda é um escritório de advogados que presta serviços de Consultoria e Assessoria Jurídica, Patrocínio Judicial, Assistência Jurídica em diversas matérias com maior enfoque para as seguintes áreas Direito Laboral, Direito Comercial, Direito Administrativo, Direito Criminal, Direito Fiscal, Direito Civil e Direito Processual conexo",
+    "text2": "A LFA Advogados, Lda oferece serviços especializados nas seguintes áreas do Direito:",
+    "area1": {
+      "title": "Direito Laboral",
+      "description": "Elaboração de contratos, regulamentos internos, processos disciplinares, rescisões contratuais, higiene e segurança no trabalho, e cumprimento de obrigações fiscais e previdenciárias."
+    },
+    "area2": {
+      "title": "Direito Comercial",
+      "description": "Criação de sociedades, gestão de contratos, procurement de bens e serviços, e emissão de pareceres jurídicos."
+    },
+    "area3": {
+      "title": "Recuperação de Créditos",
+      "description": "Medidas para recuperação de créditos, desde interpelação extrajudicial até processos judiciais."
+    },
+    "area4": {
+      "title": "Direito Administrativo",
+      "description": "Elaboração e impugnação de atos administrativos, assessoria em contratos e fiscalização da contratação pública."
+    },
+    "area5": {
+      "title": "Contencioso (Direito Civil e Criminal)",
+      "description": "Patrocínio judicial em processos cíveis, criminais e administrativos, incluindo acompanhamento a audiências."
+    },
+    "area6": {
+      "title": "Direito Fiscal",
+      "description": "Consultoria tributária, planejamento fiscal, assistência para investimentos e recursos administrativos."
+    },
+    "area7": {
+      "title": "Reforma de Diplomas Legais",
+      "description": "Assistência na elaboração e reforma de legislações e regulamentos."
+    },
+    "area8": {
+      "title": "Comércio Internacional",
+      "description": "Assessoria em importação de bens e contratos internacionais."
+    },
+    "area9": {
+      "title": "Assessoria a Estrangeiros",
+      "description": "Regularização de residência e situação laboral de estrangeiros em Moçambique."
+    },
+    "area10": {
+      "title": "Imobiliário e Construção Civil",
+      "description": "Assessoria na compra, venda e licenciamento de imóveis e terrenos."
+    },
+    "area11": {
+      "title": "Formações Jurídicas",
+      "description": "Capacitações em matéria jurídico-legal para técnicos dos clientes, com formações de curta duração."
+    }
+  },
+  "contacts": {
+    "name": "contactos",
+    "title": "Contactos",
+    "adress": "Endereço",
+    "text": "Av. Ahmed Sekou Touré 1154 R/C, Bairro Polana Cimento A. Maputo - Moçambique"
+  },
+  "placeholders": {
+    "var1": "Nome",
+    "var2": "Email",
+    "var3": "Telefone",
+    "var4": "Digite sua mensagem aqui.",
+    "var5": "Enviar"
+  },
+  "article": {
+    "name": "noticia",
+    "title": "Ultímas Notícia",
+    "news1": {
+      "title": "MIC Contratou LFA Advogados para Desenvolver Quadro Legal das Medidas de Salvaguarda Comerciais",
+      "intro": "O Ministério da Indústria e Comércio de Moçambique (MIC) contratou, no passado, a LFA Advogados Lda, uma entidade privada, para desenvolver o quadro legal das Medidas de Salvaguarda Comerciais do país. Estas medidas emergenciais, temporárias e não discriminatórias, foram criadas para proteger a indústria nacional e a economia moçambicana diante do aumento excessivo de importações que causam, ou ameaçam causar, prejuízos significativos.",
+      "body": {
+        "section1": {
+          "title": "Objetivo das Medidas de Salvaguarda Comerciais",
+          "text": "As Medidas de Salvaguarda Comerciais visam impedir que o impacto negativo das importações de determinados produtos afete gravemente a economia do Estado importador, promovendo uma resposta eficaz à preservação da competitividade e da sustentabilidade da indústria nacional."
+        },
+        "section2": {
+          "title": "Seminário de Auscultação Pública",
+          "text": "Como parte deste processo, a LFA Advogados organizou o Seminário de Auscultação Pública na Zona Centro Sobre a Proposta do Quadro Legal das Medidas de Salvaguarda Comerciais, que ocorreu no dia 5 de Março, das 9h00 às 11h00, no Hotel Sena, na cidade da Beira. O evento contou com a presença física de 20 participantes, conforme as limitações impostas pelo contexto de saúde pública da época. Para permitir uma participação mais ampla, o seminário também foi transmitido online, possibilitando que outros interessados pudessem acompanhar e interagir por meio de plataformas digitais."
+        },
+        "section3": {
+          "title": "Importância do Seminário",
+          "text": "Este seminário foi uma oportunidade crucial para recolher contribuições de diferentes atores da economia moçambicana, garantindo que o quadro legal proposto atendesse às necessidades do país, protegendo-o de impactos negativos do comércio internacional. Especialistas, empresários e representantes da sociedade civil desempenharam um papel essencial nas discussões que ajudaram a moldar o futuro das políticas de salvaguarda comercial em Moçambique."
+        }
+      }
+    },
+    "news2": {
+      "title": "LFA Advogados Contratada para Desenvolver Estudo sobre Medidas de Salvaguarda Comerciais em Moçambique",
+      "intro": "O Governo de Moçambique, através do Ministério da Indústria e Comércio (MIC), contratou a firma LFA Advogados Lda para realizar um estudo aprofundado sobre a implementação das Medidas de Salvaguarda Comerciais no país. Este estudo visa desenvolver o quadro legal necessário para proteger a indústria nacional contra os efeitos prejudiciais de importações excessivas de determinados produtos.",
+      "body": {
+        "section1": {
+          "title": "Objetivo das Medidas de Salvaguarda Comerciais",
+          "text": "As Medidas de Salvaguarda Comerciais são intervenções de caráter emergencial e temporário, aplicadas quando o aumento das importações ameaça causar danos graves à indústria local. O estudo conduzido pela LFA Advogados vai analisar detalhadamente os cenários que exigem a aplicação destas medidas, propondo soluções que assegurem a proteção da economia moçambicana e o equilíbrio no comércio internacional."
+        },
+        "section2": {
+          "title": "Experiência da LFA Advogados",
+          "text": "A LFA Advogados foi selecionada pelo Governo devido à sua experiência e capacidade técnica na área do direito comercial e de proteção da economia. A firma tem como responsabilidade realizar uma análise abrangente das condições atuais do mercado, identificar setores vulneráveis e propor as melhores práticas internacionais para a implementação dessas salvaguardas."
+        },
+        "section3": {
+          "title": "Impacto do Estudo",
+          "text": "Este estudo é um passo essencial para assegurar que Moçambique disponha de mecanismos legais que possam ser acionados em situações de emergência, permitindo a proteção da indústria local diante de ameaças econômicas globais. Através deste processo, o país espera fortalecer suas bases legais e econômicas, assegurando a competitividade no cenário comercial internacional."
+        },
+        "section4": {
+          "title": "Seminários Regionais",
+          "text": "O projeto de estudo culminará na realização de diversos seminários regionais de auscultação pública, onde as partes interessadas terão a oportunidade de fornecer contribuições valiosas para o quadro legal a ser implementado."
+        }
+      }
+    },
+    "news3": {
+      "title": "Nampula Sedia Terceiro Seminário sobre Medidas de Salvaguarda Comerciais para Proteger a Indústria Moçambicana",
+      "intro": "No dia 17 de Março de 2021, foi realizado em Nampula o Seminário sobre a Proposta Legal das Medidas de Salvaguarda Comerciais, no Hotel Grand Plaza. Este foi o terceiro seminário sobre o tema, precedido por encontros em Maputo e Beira, como parte de um esforço nacional para proteger a indústria moçambicana das consequências negativas de importações excessivas.",
+      "body": {
+        "section1": {
+          "title": "Liderança e Objetivos",
+          "text": "A LFA Advogados, firma contratada pelo Governo de Moçambique, em parceria com o Ministério da Indústria e Comércio (MIC), liderou os debates sobre a implementação das Medidas de Salvaguarda Comerciais. Essas medidas consistem em ações de emergência e temporárias, aplicadas quando o aumento das importações de certos produtos ameaça causar prejuízos graves à indústria nacional. Elas são vistas como essenciais para garantir a sustentabilidade e a competitividade da economia nacional diante dos desafios impostos pelo comércio internacional."
+        },
+        "section2": {
+          "title": "Principais Participantes e Discussões",
+          "text": "O seminário em Nampula reuniu empresários, especialistas e representantes do setor público, que discutiram as propostas e forneceram contributos valiosos para o desenvolvimento de um quadro legal robusto que protegerá a economia moçambicana em momentos de crise."
+        }
+      }
+    }
+  },
+  "joinUs": {
+    "link": "junte-se-a-nos",
+    "title": "Junte-se a Nós",
+    "information": "Com base num rigoroso código ético, a LFA Advogados busca a excelência com vista a responder da forma mais eficiente às necessidades dos seus Clientes, apostando na prestação de serviços de qualidade com efectivo valor acrescentado. Na LFA Advogados, a excelência no atendimento aos nossos clientes é uma prioridade, guiada por um código ético rigoroso. Buscamos sempre responder de forma eficiente às necessidades dos nossos clientes, oferecendo serviços jurídicos de alta qualidade com verdadeiro valor agregado.",
+    "information1": "Valorizamos o desenvolvimento pessoal e profissional dos nossos advogados e investimos continuamente em tecnologia de ponta. Nossa visão é que a LFA Advogados se torne uma instituição duradoura, além dos sócios fundadores e dos membros atuais. A equipe da LFA Advogados dedica-se integralmente aos assuntos dos clientes, com um compromisso firme com rigor, responsabilidade e competência.",
+    "information2": "Nosso principal objetivo é promover uma cultura de meritocracia e colaboração eficaz. Buscamos fornecer serviços jurídicos excepcionais e soluções inovadoras que atendam às necessidades e expectativas dos nossos clientes. Para isso, investimos na formação contínua e especializada dos nossos advogados, tanto em Moçambique quanto no exterior.",
+
+    "text": ""
+  },
+  "notFound": {
+    "text1": "Página não encontrada",
+    "text2": "Desculpe, a página que você está procurando não existe.",
+    "text3": "Voltar à página inicial"
+  },
+  "footer": {
+    "text": "2024 FLA ADVOGADOS. Todos os direitos reservados"
+  }
+}
