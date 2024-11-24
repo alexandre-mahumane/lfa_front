@@ -15,11 +15,12 @@ export const FeedbackComponent = () => {
     if (name && comment) {
       setIsSubmitting(true);
 
-      const newFeedback = {
-        name,
-        comment,
-        // date: new Date().toLocaleDateString(),
-      };
+      const newFeedback = [
+        {
+          name: "Mahumane Junior",
+          comment: "Foi incrivel trabalhar cm os vossos advogados",
+        },
+      ];
 
       try {
         const response = await api.post("/feedback/insert", newFeedback);

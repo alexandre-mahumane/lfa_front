@@ -22,6 +22,7 @@ export const Skills = () => {
           >
             {t("skills.text")}
           </motion.p>
+          <LinkComponent path={"skills"} />
         </div>
 
         <div className="md:w-1/2 mt-6 md:mt-0 flex justify-center">
@@ -32,7 +33,6 @@ export const Skills = () => {
           />
         </div>
       </div>
-      <LinkComponent path={"skills"} />
     </section>
   );
 };

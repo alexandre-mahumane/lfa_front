@@ -30,7 +30,7 @@ export const News = () => {
     <>
       <Navbar />
       <section className="px-3 min-h-screen max-w-7xl mx-auto py-8 mt-16 lg:mt-6 w-full sm:px-8 sm:py-12 lg:px-16 lg:py-20 bg-gray-50 text-gray-800">
-        <h2 className="text-2xl font-bold sm:text-3xl lg:text-4xl">
+        <h2 className="text-2xl text-blue-600 font-bold sm:text-3xl lg:text-4xl">
           {t(`article.${content}.title`)}
         </h2>
         <div className="mt-4 flex flex-col items-center space-y-4 text-base sm:text-lg lg:text-xl leading-relaxed">
@@ -39,13 +39,13 @@ export const News = () => {
           </div>
           <div className="space-y-5 w-full">
             <div>
-              <h3 className="font-bold">
+              <h3 className="font-bold text-blue-600">
                 {t(`article.${content}.body.section1.title`)}
               </h3>
               <p>{t(`article.${content}.body.section1.text`)}</p>
             </div>
             <div>
-              <h3 className="font-bold">
+              <h3 className="font-bold text-blue-600">
                 {t(`article.${content}.body.section2.title`)}
               </h3>
               <p>{t(`article.${content}.body.section2.text`)}</p>
@@ -53,7 +53,7 @@ export const News = () => {
             {content == "news2" ||
               (content == "news1" && (
                 <div>
-                  <h3 className="font-bold">
+                  <h3 className="font-bold text-blue-600">
                     {t(`article.${content}.body.section3.title`)}
                   </h3>
                   <p>{t(`article.${content}.body.section3.text`)}</p>
@@ -61,7 +61,7 @@ export const News = () => {
               ))}
             {content == "news2" && (
               <div>
-                <h3 className="font-bold">
+                <h3 className="font-bold text-blue-600">
                   {t(`article.${content}.body.section4.title`)}
                 </h3>
                 <p>{t(`article.${content}.body.section4.text`)}</p>

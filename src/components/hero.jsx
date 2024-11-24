@@ -61,7 +61,7 @@ export const Hero = () => {
           <span className="font-bold">{t("hero.var1")}</span>
           {t("hero.text")}{" "}
         </motion.p>
-        <motion.p
+        {/* <motion.p
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
@@ -69,7 +69,7 @@ export const Hero = () => {
           className="text-sm sm:text-base lg:text-lg"
         >
           {t("hero.text2")}
-        </motion.p>
+        </motion.p> */}
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -1,6 +1,10 @@
 import { TitleComponent } from "./title";
-import pic1 from "../assets/pic1.jpg";
-import pic2 from "../assets/pic2.jpg";
+import pic1 from "../assets/lawyer1.jpg";
+import pic2 from "../assets/lawyer2.jpg";
+import pic3 from "../assets/lawyer3.jpg";
+import pic4 from "../assets/lawyer4.jpg";
+import pic5 from "../assets/lawyer5.jpg";
+import pic6 from "../assets/lawyer6.jpg";
 import { useTranslation } from "react-i18next";
 import React from "react";
 import "../i18n/i18n";
@@ -16,23 +20,23 @@ export const Team = () => {
     },
     {
       name: "Advogado 1",
-      photo: pic1,
-    },
-    {
-      name: "Advogado 1",
       photo: pic2,
     },
     {
       name: "Advogado 1",
-      photo: pic2,
+      photo: pic3,
+    },
+    {
+      name: "Advogado 1",
+      photo: pic4,
     },
     {
       name: "Advogado 2",
-      photo: pic1,
+      photo: pic5,
     },
     {
       name: "Advogado 1",
-      photo: pic1,
+      photo: pic6,
     },
   ];
 

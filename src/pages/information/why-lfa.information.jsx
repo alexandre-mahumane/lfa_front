@@ -30,7 +30,7 @@ export const WhyLfaInformation = () => {
               <div key={index}>
                 <h2
                   onClick={() => toggleTextVisibility(index)}
-                  className="text-2xl cursor-pointer hover:text-blue-600 transition duration-300"
+                  className="text-2xl cursor-pointer text-blue-600 transition duration-300"
                 >
                   {reason.title}
                 </h2>

@@ -134,9 +134,9 @@ export const Navbar = () => {
                 <a
                   onClick={() => setIsVisible(!isVisible)}
                   className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
-                  href={`#${t("contact.name")}`}
+                  href={`#${t("contacts.name")}`}
                 >
-                  {t("contact.title")}
+                  {t("contacts.title")}
                 </a>
               </li>
             </ul>
