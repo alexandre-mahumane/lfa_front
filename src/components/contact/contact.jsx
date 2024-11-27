@@ -42,12 +42,6 @@ export const Contact = () => {
         >
           (+258) 84 789 3310
         </a>
-        <a
-          href="tel:+258847893310"
-          className="block text-blue-600 underline mt-2"
-        >
-          (+258) 84 789 3310
-        </a>
       </div>
       <ContactForm />
     </section>
