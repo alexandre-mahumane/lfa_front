@@ -19,16 +19,16 @@ export const Contact = () => {
       <div>
         <h3 className="font-bold text-lg">{t("contacts.title")}</h3>
         <a
-          href="mailto:info@lfadvogados.co.mz"
+          href="mailto:geral@lfadvogados.co.mz"
           className="block text-blue-600 underline mt-2"
         >
           geral@lfadvogados.co.mz
         </a>
         <a
-          href="tel:+258847499115"
+          href="tel:+258877499115"
           className="block text-blue-600 underline mt-2"
         >
-          (+258) 84 749 9115
+          (+258) 87 749 9115
         </a>
         <a
           href="tel:+258847499116"
@@ -37,10 +37,10 @@ export const Contact = () => {
           (+258) 84 749 9116
         </a>
         <a
-          href="tel:+258824170990"
+          href="tel:+258847893310"
           className="block text-blue-600 underline mt-2"
         >
-          (+258) 82 417 0990
+          (+258) 84 789 3310
         </a>
         <a
           href="tel:+258847893310"
