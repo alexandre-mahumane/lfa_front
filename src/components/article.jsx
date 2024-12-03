@@ -30,10 +30,7 @@ export const Article = () => {
           title={t("article.news2.intro")}
           path={"news/2"}
         />
-      </section>
 
-      <section className="md:p-6 w-full flex flex-col items-center bg-blue-50">
-        <TitleComponent text={t("article.title")} />
         <Card
           path={"news/3"}
           variant={"N"}
@@ -42,6 +39,7 @@ export const Article = () => {
           title={t("article.news3.intro")}
         />
       </section>
+
     </article>
   );
 };
