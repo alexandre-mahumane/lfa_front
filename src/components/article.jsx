@@ -11,13 +11,12 @@ export const Article = () => {
   return (
     <article
       id={t("article.name")}
-      className="flex flex-col md:flex-row w-full justify-between space-y-10 md:space-y-0 md:space-x-10"
+      className="flex flex-col w-full  space-y-10 md:space-y-0 md:space-x-10"
     >
+      <div className="animate__animated animate__fadeInLeft">
+        <TitleComponent text={"Newsletters"} />
+      </div>
       <section className="md:p-6 w-full flex flex-col items-center bg-blue-50">
-        <div className="animate__animated animate__fadeInLeft">
-          <TitleComponent text={"Newsletters"} />
-        </div>
-
         <Card
           pic={photo}
           text={t("article.news1.title")}
@@ -39,7 +38,6 @@ export const Article = () => {
           title={t("article.news3.intro")}
         />
       </section>
-
     </article>
   );
 };
