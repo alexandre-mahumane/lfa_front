@@ -117,21 +117,20 @@ export const Member = () => {
             </ul>
 <h3 className="font-bold">{t(
         "team.collaborators.title2")}</h3>
-            {Array.isArray(filteredMember?.professionalExperience) &&
-            filteredMember?.professionalExperience.length > 0 ? (
-              <ul className="space-y-2 list-disc list-inside">
-              {filteredMember?.professionalExperience.map((exp, index) => (
-                <li key={index} className="flex items-center">
-                  <p className="font-medium">{exp["year-range"]}</p>
-                  <span className="mx-2">-</span>
-                  <p>{exp.position}</p>
-                </li>
-              ))}
-            </ul>
-            
-            ) : (
-              <p>Sem informações de experiência profissional.</p>
-            )}
+{Array.isArray(filteredMember?.professionalExperience) && filteredMember?.professionalExperience.length > 0 ? (
+  <ul className="space-y-2 list-disc list-inside">
+    {filteredMember?.professionalExperience.map((exp, index) => (
+      <li key={index} className="flex flex-col md:flex-row items-center md:items-start">
+        <p className="font-medium">{exp["year-range"]}</p>
+        <span className="mx-2">-</span>
+        <p>{exp.position}</p>
+      </li>
+    ))}
+  </ul>
+) : (
+  <p>Nenhuma experiência profissional disponível.</p>
+)}
+
           </div>
         </div>
       </section>
