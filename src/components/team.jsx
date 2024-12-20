@@ -93,7 +93,7 @@ export const Team = () => {
                 <span className="text-white text-lg font-semibold">
                   {member.name}
                 </span>
-                <span className="text-white text-lg font-semibold">Cargo: {member.cargo}</span>
+                <span className="text-white text-base font-light">Cargo: {member.cargo}</span>
               </div>
             </Link>
           </div>

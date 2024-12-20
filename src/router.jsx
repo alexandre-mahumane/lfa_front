@@ -13,6 +13,9 @@ import { SkillsInformation } from "./pages/information/skills.information";
 import { ValuesInformation } from "./pages/information/values.information";
 import { AboutUsInformation } from "./pages/information/about-us.information";
 import { WhyLfaInformation } from "./pages/information/why-lfa.information";
+import { TeamInformation } from "./pages/information/team.information";
+import { ArticleInformation } from "./pages/information/article.information";
+import { ContactInformation } from "./pages/information/contacts.information";
 
 export const routes = createBrowserRouter([
   {
@@ -27,6 +30,18 @@ export const routes = createBrowserRouter([
   {
     path: "information/values",
     element: <ValuesInformation />,
+  },
+  {
+    path: "information/team",
+    element: <TeamInformation/>,
+  },
+  {
+    path: "information/contact",
+    element: <ContactInformation/>,
+  },
+  {
+    path: "information/article",
+    element: <ArticleInformation/>,
   },
   {
     path: "information/about-us",

@@ -4,17 +4,21 @@ import logo from "../../../public/logo.jpg";
 import React from "react";
 import "../../i18n/i18n";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
   const [onFocus, setOnFocus] = useState("pt");
 
+  // Função para alterar o idioma
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
     setOnFocus(language === "pt" ? "en" : "pt");
   };
+
+  // Alterna a visibilidade do menu mobile
+  const toggleMenu = () => setIsVisible(!isVisible);
 
   return (
     <header className="pb-6 bg-white fixed z-50 top-0 w-full lg:pb-0 lg:shadow-2xl">
@@ -43,18 +47,18 @@ export const Navbar = () => {
             >
               EN
             </button>
-            <a
+            <NavLink
               className="lg:text-base font-thin text-xs"
-              href={`#${t("contacts.name")}`}
+              to={`/information/contact`}
             >
               {t("menu")}
-            </a>
+            </NavLink>
+
             <button
               type="button"
-              onClick={() => setIsVisible(!isVisible)}
-              className="inline-flex p-2 text-black transition-all duration-200 rounded-md  focus:bg-gray-100 hover:bg-gray-100"
+              onClick={toggleMenu}
+              className="inline-flex p-2 text-black transition-all duration-200 rounded-md focus:bg-gray-100 hover:bg-gray-100"
             >
-              {/* Menu open: "hidden", Menu closed: "block" */}
               <svg
                 className={`${isVisible ? "hidden" : "block"} w-6 h-6`}
                 xmlns="http://www.w3.org/2000/svg"
@@ -70,7 +74,6 @@ export const Navbar = () => {
                 />
               </svg>
 
-              {/* Menu open: "block", Menu closed: "hidden" */}
               <svg
                 className={`${isVisible ? "block" : "hidden"} w-6 h-6`}
                 xmlns="http://www.w3.org/2000/svg"
@@ -89,55 +92,55 @@ export const Navbar = () => {
           </div>
         </nav>
 
-        {/* <!-- xs to lg --> */}
+        {/* Menu mobile */}
         {isVisible && (
           <div>
-            <ul className="flex flex-col space-y-4 py-4 bg-white ">
+            <ul className="flex flex-col space-y-4 py-4 bg-white">
               <li>
-                <Link
-                  to={`/${t("hero.link")}`}
-                  onClick={() => setIsVisible(!isVisible)}
+                <NavLink
+                  to={`/information/about-us`}
+                  onClick={toggleMenu}
                   className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {t("hero.title")}
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link
-                  to={`/${t("values.link")}`}
-                  onClick={() => setIsVisible(!isVisible)}
+                <NavLink
+                  to={`/information/values`}
+                  onClick={toggleMenu}
                   className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {t("values.title")}
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <a
-                  onClick={() => setIsVisible(!isVisible)}
-                  href={`#${t("article.name")}`}
+                <NavLink
+                  to={`/information/article`}
+                  onClick={toggleMenu}
                   className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {t("menu-news")}
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a
-                  href={`#${t("team.name")}`}
-                  onClick={() => setIsVisible(!isVisible)}
+                <NavLink
+                  to={`/information/team`}
+                  onClick={toggleMenu}
                   className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {t("team.title")}
-                </a>
+                </NavLink>
               </li>
 
               <li>
-                <a
-                  onClick={() => setIsVisible(!isVisible)}
+                <Link
+                  onClick={() => toggleMenu()}
+                  to={`/information/contact`}
                   className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
-                  href={`#${t("contacts.name")}`}
                 >
                   {t("contacts.title")}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

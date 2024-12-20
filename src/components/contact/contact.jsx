@@ -2,6 +2,7 @@ import { TitleComponent } from "../title";
 import { ContactForm } from "./contact-form";
 import React from "react";
 import "../../i18n/i18n";
+import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import { useTranslation } from "react-i18next";
 export const Contact = () => {
   const { t } = useTranslation();
@@ -18,30 +19,35 @@ export const Contact = () => {
       </div>
       <div>
         <h3 className="font-bold text-lg">{t("contacts.title")}</h3>
-        <a
-          href="mailto:geral@lfadvogados.co.mz"
-          className="block text-blue-600 underline mt-2"
-        >
-          geral@lfadvogados.co.mz
-        </a>
-        <a
-          href="tel:+258877499115"
-          className="block text-blue-600 underline mt-2"
-        >
-          (+258) 87 749 9115
-        </a>
-        <a
-          href="tel:+258847499116"
-          className="block text-blue-600 underline mt-2"
-        >
-          (+258) 84 749 9116
-        </a>
-        <a
-          href="tel:+258847893310"
-          className="block text-blue-600 underline mt-2"
-        >
-          (+258) 84 789 3310
-        </a>
+     
+<a
+  href="mailto:geral@lfadvogados.co.mz"
+  className="text-blue-600 underline mt-2 flex items-center"
+>
+  <AiOutlineMail className="mr-2" />
+  geral@lfadvogados.co.mz
+</a>
+<a
+  href="tel:+258877499115"
+  className="text-blue-600 underline mt-2 flex items-center"
+>
+  <AiOutlinePhone className="mr-2" />
+  (+258) 87 749 9115
+</a>
+<a
+  href="tel:+258847499116"
+  className="text-blue-600 underline mt-2 flex items-center"
+>
+  <AiOutlinePhone className="mr-2" />
+  (+258) 84 749 9116
+</a>
+<a
+  href="tel:+258847893310"
+  className="text-blue-600 underline mt-2 flex items-center"
+>
+  <AiOutlinePhone className="mr-2" />
+  (+258) 84 789 3310
+</a>
       </div>
       <ContactForm />
     </section>
