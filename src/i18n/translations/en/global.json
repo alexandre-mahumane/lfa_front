@@ -48,12 +48,180 @@
     "value3": "Trust and Confidentiality",
     "text3": "We act with complete loyalty and confidentiality, ensuring absolute discretion and a trusting relationship in every case."
   },
-  "team": {
+ "team": {
     "name": "team",
     "title": "Team",
-    "text": "LFA Advogados, Lda has a team of Senior Lawyers with more than 5 years of experience in legal practice and over 10 years in areas such as university teaching, legal advisory, and consultancy. In addition, our Trainee Lawyers, duly registered with the Bar Association, bring more than 5 years of experience in various areas of law.",
-    "text1": "With a highly competent, dynamic, and dedicated team, we provide services to a wide range of clients, both national and international, including individuals and large multinational corporations. We operate in both Portuguese and English, also offering document translation services, as well as interpreter and simultaneous translation services during hearings and events."
-  },
+    "text": "LFA Advogados, Lda has a team of Senior Lawyers with over 5 years of experience in law and more than 10 years in areas such as university teaching, legal advisory, and consulting. In addition, our Intern Lawyers, duly registered with the Bar Association, bring more than 5 years of experience in various areas of Law.",
+    "text1": "With a highly competent, dynamic, and committed team, we offer services to a wide range of clients, both national and international, including individuals and large multinational companies. We serve in both Portuguese and English, also offering document translation services and interpreting and simultaneous translation services in hearings and events.",
+  
+    "collaborators": {
+      "title" : "Practice Areas",
+      "title2" : "Professional Experience",
+      "luis-fazenda": {
+        "practice-areas": {
+          "position": "Lawyer and Partner"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2009-2010",
+            "position": "IPAJ Technician"
+          },
+          {
+            "year-range": "2011-present",
+            "position": "University Lecturer"
+          },
+          {
+            "year-range": "2011-2014",
+            "position": "Legal Advisor at the Pedagogical Directorate of Eduardo Mondlane University"
+          },
+          {
+            "year-range": "2012-present",
+            "position": "Lawyer registered with the Bar Association of Mozambique"
+          },
+          {
+            "year-range": "2013",
+            "position": "Intern Lawyer at Benjamim Alfredo e Associados"
+          },
+          {
+            "year-range": "2014-2019",
+            "position": "Head of the Legal Advisory Department at the Mozambique Commodities Exchange"
+          },
+          {
+            "year-range": "2018-present",
+            "position": "Managing Partner and Lawyer at LFA Advogados, Lda"
+          }
+        ],
+        "language-proficiency": {
+          "english": "Good"
+        }
+      },
+      "shaida-abdul-carimo": {
+        "practice-areas": {
+          "position": "Lawyer and Partner"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2009-2010",
+            "position": "Legal Technician at IPAJ"
+          },
+          {
+            "year-range": "2009",
+            "position": "Trainer at the Human Rights Center of the Faculty of Law, Eduardo Mondlane University"
+          },
+          {
+            "year-range": "2010-2019",
+            "position": "Coordinator of the Legal and Legal Department at Proconsult, Lda"
+          },
+          {
+            "year-range": "2022-present",
+            "position": "University Lecturer"
+          },
+          {
+            "year-range": "2019-present",
+            "position": "Lawyer and Partner at Luís Fazenda Advogados, Lda"
+          }
+        ],
+        "language-proficiency": {
+          "english": "Excellent"
+        }
+      },
+      "acacio-mitilage": {
+        "practice-areas": {
+          "position": "Senior Associate Lawyer"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2008-2010",
+            "position": "IPAJ Technician"
+          },
+          {
+            "year-range": "2010-present",
+            "position": "University Lecturer (teaching at ISCTAC, ESEG, UCM, MUSSA BIN BIQUE)"
+          },
+          {
+            "year-range": "2010-2013",
+            "position": "Lawyer registered with OAM"
+          },
+          {
+            "year-range": "2012",
+            "position": "Legal Advisor to the Municipal Council of the City of Pemba"
+          },
+          {
+            "year-range": "2013-2021",
+            "position": "Judge"
+          },
+          {
+            "year-range": "2022-present",
+            "position": "Lawyer at Luís Fazenda Advogados, Lda"
+          }
+        ]
+      },
+      "leonardo-ngariamao": {
+        "practice-areas": {
+          "position": "Intern Lawyer"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2016",
+            "position": "Head of the Legal Department at the Youth Observatory"
+          },
+          {
+            "year-range": "2016",
+            "position": "Legal Assistant at AMOZAIC Association"
+          },
+          {
+            "year-range": "2016-2018",
+            "position": "Banking Law Trainer at the UMBILA Banking Training Center"
+          },
+          {
+            "year-range": "2016-2017",
+            "position": "Legal Technician at IPAJ"
+          },
+          {
+            "year-range": "2018-present",
+            "position": "Intern Lawyer at Luís Fazenda Advogados, Lda"
+          }
+        ],
+        "language-proficiency": {
+          "english": "Excellent"
+        }
+      },
+      "luisa-fazenda": {
+        "practice-areas": {
+          "position": "Receptionist"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2022",
+            "position": "Receptionist at LFA Advogados, Lda"
+          },
+          {
+            "year-range": "2019",
+            "position": "Professional Internship at the District Administration of Magude"
+          }
+        ]
+      },
+      "andre-matenga": {
+        "practice-areas": {
+          "position": "Administrative Assistant"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2019-present",
+            "position": "Administrative Assistant at LFA Advogados, Lda"
+          },
+          {
+            "year-range": "2016-2019",
+            "position": "Barman at Madjedje Club"
+          }
+        ],
+        "education": {
+          "highest-education": "High School Diploma"
+        }
+      }
+    }
+}
+,
   "skills": {
     "link": "area-of-pratice",
     "title": "Areas of Practice",

@@ -7,6 +7,7 @@ import "swiper/css";
 import photo1 from "../assets/photo5.jpeg";
 import photo2 from "../assets/photo4.jpeg";
 import photo3 from "../assets/photo3.jpeg";
+import video from "../assets/lfa_video_banner.mp4";
 import { Link } from "react-router-dom";
 import { TitleComponent } from "./title";
 import { register } from "swiper/element/bundle";
@@ -29,6 +30,19 @@ export const Hero = () => {
         className="absolute top-0 left-0 w-full h-full custom-bezier"
       >
         <SwiperSlide>
+  <div className="w-full h-full">
+    <video
+      className="w-full h-full object-cover"
+      autoPlay
+      loop
+      muted
+      playsInline
+      src={video} // Substitua 'video1' pelo caminho do seu vídeo
+    />
+  </div>
+</SwiperSlide>
+
+        {/* <SwiperSlide>
           <div
             className="w-full h-full  bg-cover"
             style={{ backgroundImage: `url(${photo1})` }}
@@ -39,7 +53,7 @@ export const Hero = () => {
             className="w-full h-full  bg-cover"
             style={{ backgroundImage: `url(${photo2})` }}
           ></div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* <SwiperSlide>
           <div
             className="w-full h-full  bg-cover"

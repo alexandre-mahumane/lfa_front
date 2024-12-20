@@ -14,30 +14,46 @@ import { Link } from "react-router-dom";
 export const Team = () => {
   const { t } = useTranslation();
   const teamMembers = [
-    {
-      name: "Advogado 1",
-      photo: pic1,
-    },
-    {
-      name: "Advogado 1",
+        {
+          id: "luis-fazenda",
+      name: "Luís José Fazenda",
       photo: pic2,
-    },
-    {
-      name: "Advogado 1",
-      photo: pic3,
-    },
-    {
-      name: "Advogado 1",
+      cargo: "Sócio Administrador e Advogado"
+    },  
+      {
+        id: "shaida-carimo",
+      name: "Shaida Abdul Carimo",
       photo: pic4,
-    },
-    {
-      name: "Advogado 2",
-      photo: pic5,
-    },
-    {
-      name: "Advogado 1",
+      cargo:"Advogada e Sócia"
+    },   
+     {
+      id:"acacio-mitilage" ,
+      name: "Acácio Mitilage",
       photo: pic6,
+      cargo:"Advogado Associado Sénior"
     },
+    {
+      id: "leonardo-ngariamao",
+      name: "Leonardo Ngariamao",
+      photo: pic1,
+      cargo:"Advogado Estagiário"
+    },    
+    {
+      id: "luisa-fazenda",
+      name: "Luísa Job Fazenda",
+      photo: pic5,
+      cargo:"Recepcionista"
+    },
+
+    {
+      id:"andre-matenga",
+      name: "André matenga",
+      photo: pic3,
+      cargo:"Assistente Administrativo"
+    },
+
+
+
   ];
 
   return (
@@ -77,7 +93,7 @@ export const Team = () => {
                 <span className="text-white text-lg font-semibold">
                   {member.name}
                 </span>
-                <span className="text-white text-lg font-semibold">Cargo</span>
+                <span className="text-white text-lg font-semibold">Cargo: {member.cargo}</span>
               </div>
             </Link>
           </div>
