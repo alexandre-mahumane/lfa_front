@@ -63,7 +63,7 @@ export const Contact = () => {
           <FaFacebookF />
         </a>
         <a
-          href="https://www.linkedin.com"
+          href="https://www.linkedin.com/company/lfa-advogados-ldta/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 text-2xl"
