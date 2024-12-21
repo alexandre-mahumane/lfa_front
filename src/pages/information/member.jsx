@@ -105,7 +105,7 @@ export const Member = () => {
             />
           </div>
 
-          <div className="w-full lg:w-1/2 space-y-4 text-start md:text-center lg:text-left">
+          <div className="w-full lg:w-1/2 space-y-4 text-start">
             <h2 className="text-2xl font-bold sm:text-3xl lg:text-4xl text-blue-600">
               {filteredMember.name}
             </h2>
@@ -117,13 +117,13 @@ export const Member = () => {
             </ul>
 <h3 className="font-bold text-blue-600">{t(
         "team.collaborators.title2")}</h3>
-{Array.isArray(filteredMember?.professionalExperience) && filteredMember?.professionalExperience.length > 0 ? (
+{Array.isArray(filteredMember.professionalExperience) && filteredMember.professionalExperience.length > 0 ? (
   <ul className="space-y-2  list-disc list-inside">
-    {filteredMember?.professionalExperience.map((exp, index) => (
-      <li key={index} className="flex flex-col md:flex-row lg:items-center md:items-start">
-        <p className="font-medium">{exp["year-range"]}</p>
+    {filteredMember.professionalExperience.map((exp, index) => (
+      <li key={index} className="flex flex-col space-x-5 w-full md:flex-row  ">
+        <p className="font-medium w-60 ">{exp["year-range"]}</p>
         {/* <span className="mx-2">-</span> */}
-        <p>{exp.position}</p>
+        <p className="md:w-5/6">{exp.position}</p>
       </li>
     ))}
   </ul>

@@ -47,172 +47,172 @@
       "title" : "Cargo",
       "title2" : "Experiência Profissional",
 
-      "luis-fazenda": {
-        "practice-areas": {
-          "position": "Advogado e Sócio"
-        },
-        "professional-experience": [
-          {
-            "year-range": "2009-2010",
-            "position": "Técnico IPAJ"
+      
+        "luis-fazenda": {
+          "practice-areas": {
+            "position": "Advogado e Sócio"
           },
-          {
-            "year-range": "2011-actualidade",
-            "position": "Docente universitário"
-          },
-          {
-            "year-range": "2011-2014",
-            "position": "Jurista na Direcção Pedagógica da Universidade Eduardo Mondlane"
-          },
-          {
-            "year-range": "2012-actualidade",
-            "position": "Advogado inscrito na Ordem dos Advogados de Moçambique"
-          },
-          {
-            "year-range": "2013",
-            "position": "Advogado Estagiário na Benjamim Alfredo e Associados"
-          },
-          {
-            "year-range": "2014-2019",
-            "position": "Chefe do Departamento de Assessoria Jurídica da Bolsa de Mercadorias de Moçambique"
-          },
-          {
-            "year-range": "2018-actualidade",
-            "position": "Sócio Administrador e Advogado no Escritório de Advogados – LFA Advogados, Lda"
+          "professional-experience": [
+            {
+              "year-range": "2018-Actualidade ",
+              "position": "Sócio Administrador e Advogado no Escritório de Advogados – LFA Advogados, Lda"
+            },
+            {
+              "year-range": "2014-2019 ",
+              "position": "Chefe do Departamento de Assessoria Jurídica da Bolsa de Mercadorias de Moçambique"
+            },
+            {
+              "year-range": "2013 ",
+              "position": "Advogado Estagiário na Benjamim Alfredo e Associados"
+            },
+            {
+              "year-range": "2012-Actualidade",
+              "position": "Advogado inscrito na Ordem dos Advogados de Moçambique"
+            },
+            {
+              "year-range": "2011-2014",
+              "position": "Jurista na Direcção Pedagógica da Universidade Eduardo Mondlane"
+            },
+            {
+              "year-range": "2011-Actualidade",
+              "position": "Docente universitário"
+            },
+            {
+              "year-range": "2009-2010",
+              "position": "Técnico IPAJ"
+            }
+          ],
+          "language-proficiency": {
+            "english": "Bom"
           }
-        ],
-        "language-proficiency": {
-          "english": "Bom"
-        }
-      },
-      "shaida-carimo": {
-        "practice-areas": {
-          "position": "Advogada e Sócia"
         },
-        "professional-experience": [
-          {
-            "year-range": "2009-2010",
-            "position": "Técnica Jurídica do IPAJ"
+        "shaida-carimo": {
+          "practice-areas": {
+            "position": "Advogada e Sócia"
           },
-          {
-            "year-range": "2009",
-            "position": "Formadora no Centro de Direitos Humanos da Faculdade de Direito da Universidade Eduardo Mondlane"
-          },
-          {
-            "year-range": "2010-2019",
-            "position": "Coordenadora do Departamento Jurídico e Legal da Proconsult, Lda"
-          },
-          {
-            "year-range": "2022-actualidade",
-            "position": "Docente universitária"
-          },
-          {
-            "year-range": "2019-actualidade",
-            "position": "Advogada e Sócia no Escritório de Advogados - Luís Fazenda Advogados, Lda"
+          "professional-experience": [
+            {
+              "year-range": "2022-Actualidade ",
+              "position": "Docente universitária"
+            },
+            {
+              "year-range": "2019-Actualidade ",
+              "position": "Advogada e Sócia no Escritório de Advogados - Luís Fazenda Advogados, Lda"
+            },
+            {
+              "year-range": "2010-2019 ",
+              "position": "Coordenadora do Departamento Jurídico e Legal da Proconsult, Lda"
+            },
+            {
+              "year-range": "2009 ",
+              "position": "Formadora no Centro de Direitos Humanos da Faculdade de Direito da Universidade Eduardo Mondlane"
+            },
+            {
+              "year-range": "2009-2010 ",
+              "position": "Técnica Jurídica do IPAJ"
+            }
+          ],
+          "language-proficiency": {
+            "english": "Excelente"
           }
-        ],
-        "language-proficiency": {
-          "english": "Excelente"
-        }
-      },
-      "acacio-mitilage": {
-        "practice-areas": {
-          "position": "Advogado Associado Sénior"
         },
-        "professional-experience": [
-          {
-            "year-range": "2008-2010",
-            "position": "Técnico do IPAJ"
+        "acacio-mitilage": {
+          "practice-areas": {
+            "position": "Advogado Associado Sênior"
           },
-          {
-            "year-range": "2010-actualidade",
-            "position": "Docente universitário (leccionando no ISCTAC, ESEG, UCM, MUSSA BIN BIQUE)"
-          },
-          {
-            "year-range": "2010-2013",
-            "position": "Advogado inscrito na OAM"
-          },
-          {
-            "year-range": "2012",
-            "position": "Jurista do Conselho Municipal da Cidade de Pemba"
-          },
-          {
-            "year-range": "2013-2021",
-            "position": "Juiz de Direito"
-          },
-          {
-            "year-range": "2022-actualidade",
-            "position": "Advogado no Escritório de Advogados - Luís Fazenda Advogados, Lda"
-          }
-        ]
-      },
-      "leonardo-ngariamao": {
-        "practice-areas": {
-          "position": "Advogado Estagiário"
+          "professional-experience": [
+            {
+              "year-range": "2022-Actualidade",
+              "position": "Advogado no Escritório de Advogados - Luís Fazenda Advogados, Lda"
+            },
+            {
+              "year-range": "2013-2021",
+              "position": "Juiz de Direito"
+            },
+            {
+              "year-range": "2012",
+              "position": "Jurista do Conselho Municipal da Cidade de Pemba"
+            },
+            {
+              "year-range": "2010-Actualidade",
+              "position": "Docente universitário (leccionando no ISCTAC, ESEG, UCM, MUSSA BIN BIQUE)"
+            },
+            {
+              "year-range": "2010-2013",
+              "position": "Advogado inscrito na OAM"
+            },
+            {
+              "year-range": "2008-2010",
+              "position": "Técnico do IPAJ"
+            }
+          ]
         },
-        "professional-experience": [
-          {
-            "year-range": "2016",
-            "position": "Chefe do Departamento Jurídico do Observatório Juvenil"
+        "leonardo-ngariamao": {
+          "practice-areas": {
+            "position": "Advogado Estagiário"
           },
-          {
-            "year-range": "2016",
-            "position": "Assistente Jurídico da Associação AMOZAIC"
-          },
-          {
-            "year-range": "2016-2018",
-            "position": "Formador de Direito Bancário no Centro de Treinamento Bancário UMBILA"
-          },
-          {
-            "year-range": "2016-2017",
-            "position": "Técnico Jurídico do IPAJ"
-          },
-          {
-            "year-range": "2018-actualidade",
-            "position": "Advogado Estagiário no Escritório de Advogados - Luís Fazenda Advogados, Lda"
+          "professional-experience": [
+            {
+              "year-range": "2018-Actualidade",
+              "position": "Advogado Estagiário no Escritório de Advogados - Luís Fazenda Advogados, Lda"
+            },
+            {
+              "year-range": "2016-2018",
+              "position": "Formador de Direito Bancário no Centro de Treinamento Bancário UMBILA"
+            },
+            {
+              "year-range": "2016-2017",
+              "position": "Técnico Jurídico do IPAJ"
+            },
+            {
+              "year-range": "2016",
+              "position": "Assistente Jurídico da Associação AMOZAIC"
+            },
+            {
+              "year-range": "2016",
+              "position": "Chefe do Departamento Jurídico do Observatório Juvenil"
+            }
+          ],
+          "language-proficiency": {
+            "english": "Excelente"
           }
-        ],
-        "language-proficiency": {
-          "english": "Excelente"
-        }
-      },
-      "luisa-fazenda": {
-        "practice-areas": {
-          "position": "Recepcionista"
         },
-        "professional-experience": [
-          {
-            "year-range": "2022",
-            "position": "Recepcionista LFA Advogados, Lda"
+        "luisa-fazenda": {
+          "practice-areas": {
+            "position": "Recepcionista"
           },
-          {
-            "year-range": "2019",
-            "position": "Estágio Profissional na Administração Distrital de Magude"
-          }
-        ]
-      },
-      "andre-matenga": {
-        "practice-areas": {
-          "position": "Assistente Administrativo"
+          "professional-experience": [
+            {
+              "year-range": "2022",
+              "position": "Recepcionista LFA Advogados, Lda"
+            },
+            {
+              "year-range": "2019",
+              "position": "Estágio Profissional na Administração Distrital de Magude"
+            }
+          ]
         },
-        "professional-experience": [
-          {
-            "year-range": "2019-actualidade",
-            "position": "Assistente Administrativo LFA Advogados, Lda"
+        "andre-matenga": {
+          "practice-areas": {
+            "position": "Assistente Administrativo"
           },
-          {
-            "year-range": "2016-2019",
-            "position": "Barman no Madjedje Club"
+          "professional-experience": [
+            {
+              "year-range": "2019-Actualidade",
+              "position": "Assistente Administrativo LFA Advogados, Lda"
+            },
+            {
+              "year-range": "2016-2019",
+              "position": "Barman no Madjedje Club"
+            }
+          ],
+          "education": {
+            "highest-education": "Ensino médio completo"
           }
-        ],
-        "education": {
-          "highest-education": "Ensino médio completo"
         }
       }
-    }
-    
-  
-  },
+      
+    },
   "whyLfa": {
     "title": "Por que Escolher a LFA Advogados?",
     "reason":"Oferecemos expertise e comprometimento em diversas áreas do direito, como Direito Laboral, Comercial, Administrativo, Criminal, Fiscal, Civil e Processual. Com uma equipe altamente qualificada, garantimos um atendimento personalizado, focado em soluções eficientes e proteção dos seus direitos. Nossa abordagem ética e dedicada busca sempre os melhores resultados para nossos clientes, tornando-nos um parceiro jurídico confiável e estratégico. ",

@@ -64,8 +64,16 @@
         },
         "professional-experience": [
           {
-            "year-range": "2009-2010",
-            "position": "IPAJ Technician"
+            "year-range": "2018-present",
+            "position": "Managing Partner and Lawyer at LFA Advogados, Lda"
+          },
+          {
+            "year-range": "2014-2019",
+            "position": "Head of the Legal Advisory Department at the Mozambique Commodities Exchange"
+          },
+          {
+            "year-range": "2012-present",
+            "position": "Lawyer registered with the Bar Association of Mozambique"
           },
           {
             "year-range": "2011-present",
@@ -76,20 +84,12 @@
             "position": "Legal Advisor at the Pedagogical Directorate of Eduardo Mondlane University"
           },
           {
-            "year-range": "2012-present",
-            "position": "Lawyer registered with the Bar Association of Mozambique"
-          },
-          {
             "year-range": "2013",
             "position": "Intern Lawyer at Benjamim Alfredo e Associados"
           },
           {
-            "year-range": "2014-2019",
-            "position": "Head of the Legal Advisory Department at the Mozambique Commodities Exchange"
-          },
-          {
-            "year-range": "2018-present",
-            "position": "Managing Partner and Lawyer at LFA Advogados, Lda"
+            "year-range": "2009-2010",
+            "position": "IPAJ Technician"
           }
         ],
         "language-proficiency": {
@@ -102,24 +102,24 @@
         },
         "professional-experience": [
           {
-            "year-range": "2009-2010",
-            "position": "Legal Technician at IPAJ"
-          },
-          {
-            "year-range": "2009",
-            "position": "Trainer at the Human Rights Center of the Faculty of Law, Eduardo Mondlane University"
-          },
-          {
-            "year-range": "2010-2019",
-            "position": "Coordinator of the Legal and Legal Department at Proconsult, Lda"
+            "year-range": "2022-present",
+            "position": "University Lecturer"
           },
           {
             "year-range": "2019-present",
             "position": "Lawyer and Partner at Luís Fazenda Advogados, Lda"
           },
           {
-            "year-range": "2022-present",
-            "position": "University Lecturer"
+            "year-range": "2010-2019",
+            "position": "Coordinator of the Legal and Legal Department at Proconsult, Lda"
+          },
+          {
+            "year-range": "2009-2010",
+            "position": "Legal Technician at IPAJ"
+          },
+          {
+            "year-range": "2009",
+            "position": "Trainer at the Human Rights Center of the Faculty of Law, Eduardo Mondlane University"
           }
         ],
         "language-proficiency": {
@@ -132,28 +132,28 @@
         },
         "professional-experience": [
           {
-            "year-range": "2008-2010",
-            "position": "IPAJ Technician"
-          },
-          {
-            "year-range": "2010-present",
-            "position": "University Lecturer (teaching at ISCTAC, ESEG, UCM, MUSSA BIN BIQUE)"
-          },
-          {
-            "year-range": "2010-2013",
-            "position": "Lawyer registered with OAM"
-          },
-          {
-            "year-range": "2012",
-            "position": "Legal Advisor to the Municipal Council of the City of Pemba"
+            "year-range": "2022-present",
+            "position": "Lawyer at Luís Fazenda Advogados, Lda"
           },
           {
             "year-range": "2013-2021",
             "position": "Judge"
           },
           {
-            "year-range": "2022-present",
-            "position": "Lawyer at Luís Fazenda Advogados, Lda"
+            "year-range": "2010-present",
+            "position": "University Lecturer (teaching at ISCTAC, ESEG, UCM, MUSSA BIN BIQUE)"
+          },
+          {
+            "year-range": "2012",
+            "position": "Legal Advisor to the Municipal Council of the City of Pemba"
+          },
+          {
+            "year-range": "2010-2013",
+            "position": "Lawyer registered with OAM"
+          },
+          {
+            "year-range": "2008-2010",
+            "position": "IPAJ Technician"
           }
         ]
       },
@@ -163,12 +163,8 @@
         },
         "professional-experience": [
           {
-            "year-range": "2016",
-            "position": "Head of the Legal Department at the Youth Observatory"
-          },
-          {
-            "year-range": "2016",
-            "position": "Legal Assistant at AMOZAIC Association"
+            "year-range": "2018-present",
+            "position": "Intern Lawyer at Luís Fazenda Advogados, Lda"
           },
           {
             "year-range": "2016-2018",
@@ -179,8 +175,12 @@
             "position": "Legal Technician at IPAJ"
           },
           {
-            "year-range": "2018-present",
-            "position": "Intern Lawyer at Luís Fazenda Advogados, Lda"
+            "year-range": "2016",
+            "position": "Head of the Legal Department at the Youth Observatory"
+          },
+          {
+            "year-range": "2016",
+            "position": "Legal Assistant at AMOZAIC Association"
           }
         ],
         "language-proficiency": {
@@ -220,6 +220,7 @@
           "highest-education": "High School Diploma"
         }
       }
+
     }
 }
 ,

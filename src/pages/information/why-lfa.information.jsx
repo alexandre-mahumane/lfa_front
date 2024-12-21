@@ -5,6 +5,7 @@ import { TitleComponent } from "../../components/title";
 import { Navbar } from "../../components/navbar/navbar";
 import { Footer } from "../../components/footer";
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { Link } from "react-router-dom";
 
 export const WhyLfaInformation = () => {
   const { t } = useTranslation();
@@ -45,6 +46,14 @@ export const WhyLfaInformation = () => {
                 )}
               </div>
             ))}
+          </div>
+          <div>
+            <Link 
+              className="w-fit px-4 py-2 bg-blue-600 text-white border-2 border-blue-600" 
+              to={"/information/contact"}
+            >
+              {t("contacts.title")}
+            </Link>
           </div>
         </div>
       </section>
