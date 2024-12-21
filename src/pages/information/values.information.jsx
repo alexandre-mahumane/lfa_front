@@ -26,7 +26,7 @@ export const ValuesInformation = () => {
   return (
     <>
       <Navbar />
-      <section className="min-h-screen flex flex-col justify-center items-center mt-4 bg-gray-50 text-gray-800">
+      <section className="min-h-screen flex flex-col justify-center mt-14 items-center md:mt-4 bg-gray-50 text-gray-800">
         <div className="bg-white p-8  max-w-4xl space-y-8 w-full">
           <TitleComponent text={t(`values.title`)} />
           <p className="text-lg">{t(`values.information1`)}</p>
