@@ -1,6 +1,6 @@
 {
   "menu": "Como podemos ajudar?",
-  "menu-news": "Notícias",
+  "menu-news": "Newsletters",
   "hero": {
     "title": "Quem Nós Somos",
     "link": "quem-somos",
@@ -44,7 +44,7 @@
     "text1": "Com uma equipe altamente competente, dinâmica e comprometida, oferecemos serviços a uma ampla gama de clientes, tanto nacionais quanto internacionais, incluindo particulares e grandes multinacionais. Atendemos em português e inglês, oferecendo também tradução de documentos e serviços de intérprete e tradução simultânea em audiências e eventos.",
   
     "collaborators": {
-      "title" : "Áreas de Prática",
+      "title" : "Cargo",
       "title2" : "Experiência Profissional",
 
       "luis-fazenda": {
@@ -85,7 +85,7 @@
           "english": "Bom"
         }
       },
-      "shaida-abdul-carimo": {
+      "shaida-carimo": {
         "practice-areas": {
           "position": "Advogada e Sócia"
         },
@@ -215,6 +215,7 @@
   },
   "whyLfa": {
     "title": "Por que Escolher a LFA Advogados?",
+    "reason":"Oferecemos expertise e comprometimento em diversas áreas do direito, como Direito Laboral, Comercial, Administrativo, Criminal, Fiscal, Civil e Processual. Com uma equipe altamente qualificada, garantimos um atendimento personalizado, focado em soluções eficientes e proteção dos seus direitos. Nossa abordagem ética e dedicada busca sempre os melhores resultados para nossos clientes, tornando-nos um parceiro jurídico confiável e estratégico. ",
     "value1": "Excelência e Qualidade",
     "text1": "Oferecemos serviços jurídicos de alto nível, com soluções eficazes e personalizadas, sempre atendendo às necessidades específicas de cada cliente.",
     "value2": "Atendimento Ágil e Eficiente",
@@ -225,51 +226,48 @@
   "skills": {
     "link": "areas-de-competencia",
     "title": "Áreas de Actuação",
-    "text": "A LFA Advogados, Lda é um escritório de advogados que presta serviços de Consultoria e Assessoria Jurídica, Patrocínio Judicial, Assistência Jurídica em diversas matérias com maior enfoque para as seguintes áreas Direito Laboral, Direito Comercial, Direito Administrativo, Direito Criminal, Direito Fiscal, Direito Civil e Direito Processual conexo",
+    "text": "A LFA Advogados, Lda é um escritório de advogados que presta serviços de Consultoria e Assessoria Jurídica, Patrocínio Judicial, Assistência Jurídica em diversas matérias com maior enfoque para as seguintes áreas Direito Laboral, Direito Comercial, Direito Administrativo, Direito Criminal, Direito Fiscal, Direito Civil e Direito Processual conexo.",
     "text2": "A LFA Advogados, Lda oferece serviços especializados nas seguintes áreas do Direito:",
     "area1": {
-      "title": "Direito Laboral",
-      "description": "Elaboração de contratos, regulamentos internos, processos disciplinares, rescisões contratuais, higiene e segurança no trabalho, e cumprimento de obrigações fiscais e previdenciárias."
+      "title": "Consultoria e Assessoria Jurídica",
+      "description": "Oferecemos orientação especializada e soluções estratégicas para questões legais, ajudando os clientes a tomar decisões informadas e a cumprir as normas jurídicas aplicáveis.  "
     },
     "area2": {
-      "title": "Direito Comercial",
-      "description": "Criação de sociedades, gestão de contratos, procurement de bens e serviços, e emissão de pareceres jurídicos."
+      "title": "Patrocínio Judicial",
+      "description": "Representamos os interesses dos clientes em processos judiciais, assegurando defesa técnica e estratégica em tribunais e outras instâncias jurídicas. "
     },
     "area3": {
-      "title": "Recuperação de Créditos",
-      "description": "Medidas para recuperação de créditos, desde interpelação extrajudicial até processos judiciais."
+      "title": "Assistência Jurídica em diversas matérias",
+      "description1": "Proporcionamos suporte abrangente em questões legais variadas, garantindo a proteção dos direitos e interesses dos clientes.  "
+      ,"description": ""
     },
     "area4": {
-      "title": "Direito Administrativo",
-      "description": "Elaboração e impugnação de atos administrativos, assessoria em contratos e fiscalização da contratação pública."
+      "title": "Direito Laboral",
+      "description": "Assessoria em relações de trabalho, abrangendo contratos, questões de despedimento, litígios trabalhistas e cumprimento da legislação laboral.  "
     },
     "area5": {
-      "title": "Contencioso (Direito Civil e Criminal)",
-      "description": "Patrocínio judicial em processos cíveis, criminais e administrativos, incluindo acompanhamento a audiências."
+      "title": "Direito Comercial",
+      "description": "Orientação jurídica para empresas, incluindo elaboração de contratos comerciais, assessoria em transações corporativas e resolução de disputas comerciais.  "
     },
     "area6": {
       "title": "Direito Fiscal",
-      "description": "Consultoria tributária, planejamento fiscal, assistência para investimentos e recursos administrativos."
+      "description": "Orientação jurídica para empresas, incluindo elaboração de contratos comerciais, assessoria em transações corporativas e resolução de disputas comerciais.  "
     },
     "area7": {
-      "title": "Reforma de Diplomas Legais",
-      "description": "Assistência na elaboração e reforma de legislações e regulamentos."
+      "title": "Direito Administrativo",
+      "description": "Assistência em processos que envolvem entidades públicas, como licitações, contratos administrativos e contencioso administrativo.  "
     },
     "area8": {
-      "title": "Comércio Internacional",
-      "description": "Assessoria em importação de bens e contratos internacionais."
+      "title": "Direito Criminal",
+      "description": "Defesa técnica em casos criminais, desde a fase de investigação até o julgamento, assegurando proteção dos direitos dos clientes.  "
     },
     "area9": {
-      "title": "Assessoria a Estrangeiros",
-      "description": "Regularização de residência e situação laboral de estrangeiros em Moçambique."
+      "title": "Direito Civil",
+      "description": "Soluções jurídicas em matérias como contratos, responsabilidades civis, direito da família e heranças.  "
     },
     "area10": {
-      "title": "Imobiliário e Construção Civil",
-      "description": "Assessoria na compra, venda e licenciamento de imóveis e terrenos."
-    },
-    "area11": {
-      "title": "Formações Jurídicas",
-      "description": "Capacitações em matéria jurídico-legal para técnicos dos clientes, com formações de curta duração."
+      "title": "Direito Processual conexo",
+      "description": "Gestão de procedimentos processuais em diversas áreas do direito, assegurando o cumprimento de prazos e estratégias eficazes nos processos judiciais."
     }
   },
   "contacts": {
@@ -358,6 +356,6 @@
     "text3": "Voltar à página inicial"
   },
   "footer": {
-    "text": "2024 FLA ADVOGADOS. Todos os direitos reservados"
+    "text": "LFA ADVOGADOS. Todos os direitos reservados"
   }
 }

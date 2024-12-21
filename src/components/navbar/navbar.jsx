@@ -116,6 +116,15 @@ export const Navbar = () => {
               </li>
               <li>
                 <NavLink
+                  to={`/information/skills`}
+                  onClick={toggleMenu}
+                  className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                >
+                  {t("skills.title")}
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
                   to={`/information/article`}
                   onClick={toggleMenu}
                   className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"

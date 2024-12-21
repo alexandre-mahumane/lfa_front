@@ -95,7 +95,7 @@ export const Member = () => {
   return (
     <>
       <Navbar />
-      <section className="px-3 min-h-screen max-w-7xl mx-auto py-8 mt-16 lg:mt-24 w-full sm:px-8 sm:py-12 lg:px-16 lg:py-20 bg-gray-50 text-gray-800">
+      <section className=" px-3 min-h-screen max-w-7xl mx-auto py-8 mt-16 lg:mt-24 w-full sm:px-8 sm:py-12 lg:px-16 lg:py-20 bg-gray-50 text-gray-800">
         <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-8 text-base sm:text-lg lg:text-xl leading-relaxed">
           <div className="w-full lg:w-1/2 max-w-lg lg:max-w-none h-auto">
             <img
@@ -105,24 +105,24 @@ export const Member = () => {
             />
           </div>
 
-          <div className="w-full lg:w-1/2 space-y-4 text-center lg:text-left">
-            <h2 className="text-2xl font-bold sm:text-3xl lg:text-4xl">
+          <div className="w-full lg:w-1/2 space-y-4 text-start md:text-center lg:text-left">
+            <h2 className="text-2xl font-bold sm:text-3xl lg:text-4xl text-blue-600">
               {filteredMember.name}
             </h2>
-<h3 className="font-bold">{t(
+<h3 className="font-bold text-blue-600">{t(
         "team.collaborators.title")}</h3>
             <ul className="space-y-2 list-disc list-inside">
               
-              <li>{filteredMember.position || "Informação não disponível"}</li>
+              <li >{filteredMember.position || "Informação não disponível"}</li>
             </ul>
-<h3 className="font-bold">{t(
+<h3 className="font-bold text-blue-600">{t(
         "team.collaborators.title2")}</h3>
 {Array.isArray(filteredMember?.professionalExperience) && filteredMember?.professionalExperience.length > 0 ? (
-  <ul className="space-y-2 list-disc list-inside">
+  <ul className="space-y-2  list-disc list-inside">
     {filteredMember?.professionalExperience.map((exp, index) => (
-      <li key={index} className="flex flex-col md:flex-row items-center md:items-start">
+      <li key={index} className="flex flex-col md:flex-row lg:items-center md:items-start">
         <p className="font-medium">{exp["year-range"]}</p>
-        <span className="mx-2">-</span>
+        {/* <span className="mx-2">-</span> */}
         <p>{exp.position}</p>
       </li>
     ))}

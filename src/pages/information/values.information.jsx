@@ -4,6 +4,8 @@ import { useTranslation } from "react-i18next";
 import { TitleComponent } from "../../components/title";
 import { Navbar } from "../../components/navbar/navbar";
 import { Footer } from "../../components/footer";
+import { Link } from "react-router-dom";
+import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
 export const ValuesInformation = () => {
   const { t } = useTranslation();
@@ -24,23 +26,33 @@ export const ValuesInformation = () => {
   return (
     <>
       <Navbar />
-      <section className="min-h-screen flex justify-center items-center bg-gray-50 text-gray-800">
-        <div className="bg-white p-8 max-w-4xl w-full">
+      <section className="min-h-screen flex flex-col justify-center items-center mt-4 bg-gray-50 text-gray-800">
+        <div className="bg-white p-8  max-w-4xl space-y-8 w-full">
           <TitleComponent text={t(`values.title`)} />
+          <p className="text-lg">{t(`values.information1`)}</p>
           <div className="space-y-6 mt-4 text-base sm:text-lg lg:text-xl leading-relaxed">
             {values.map((value, index) => (
               <div key={index}>
                 <h2
                   onClick={() => toggleTextVisibility(index)}
-                  className="text-2xl cursor-pointer text-blue-600 transition duration-300"
+                  className={`text-2xl cursor-pointer transition duration-300 flex justify-between items-center ${visibleIndex === index ? 'text-blue-600' : ''}`}
                 >
                   {value.title}
+                  {visibleIndex === index ? <FaChevronUp /> : <FaChevronDown />}
                 </h2>
                 {visibleIndex === index && (
                   <p className="text-lg mt-2">{value.text}</p>
                 )}
               </div>
             ))}
+          </div> 
+          <div>
+            <Link 
+              className="w-fit px-4 py-2 bg-blue-600 text-white border-2 border-blue-600" 
+              to={"/information/contact"}
+            >
+              {t("contacts.title")}
+            </Link>
           </div>
         </div>
       </section>

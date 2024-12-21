@@ -19,8 +19,8 @@ export const JoinUs = () => {
         viewport={{ once: true }}
         className="space-y-6 pl-px-4"
       >
-        <h2 className="text-2xl">{t(`whyLfa.value1`)}</h2>
-        <p className="text-lg">{t(`whyLfa.text1`)}</p>
+    
+        <p className="text-lg">{t(`whyLfa.reason`)}</p>
       </motion.div>
       <LinkComponent path={"why-lfa"} />
 

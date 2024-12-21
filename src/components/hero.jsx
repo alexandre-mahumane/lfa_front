@@ -104,7 +104,7 @@ export const Hero = () => {
             className="w-fit px-4 py-2 hover:bg-blue-600 text-white border-2 border-blue-600 transition-all"
           >
             {t("contacts.title")}
-          </a>
+          </a> 
         </motion.div>
       </div>
     </div>
