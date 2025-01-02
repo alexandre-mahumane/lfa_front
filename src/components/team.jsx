@@ -5,6 +5,7 @@ import pic3 from "../assets/lawyer3.jpg";
 import pic4 from "../assets/lawyer4.jpg";
 import pic5 from "../assets/lawyer5.jpg";
 import pic6 from "../assets/lawyer6.jpg";
+import pic7 from "../assets/lawyer7.jpg";
 import { useTranslation } from "react-i18next";
 import React from "react";
 import "../i18n/i18n";
@@ -14,46 +15,49 @@ import { Link } from "react-router-dom";
 export const Team = () => {
   const { t } = useTranslation();
   const teamMembers = [
-        {
-          id: "luis-fazenda",
+    {
+      id: "luis-fazenda",
       name: "Luís José Fazenda",
       photo: pic2,
-      cargo: "Sócio Administrador e Advogado"
-    },  
-      {
-        id: "shaida-carimo",
+      cargo: "Sócio Administrador e Advogado",
+    },
+    {
+      id: "shaida-carimo",
       name: "Shaida Abdul Carimo",
       photo: pic4,
-      cargo:"Advogada e Sócia"
-    },   
-     {
-      id:"acacio-mitilage" ,
+      cargo: "Advogada e Sócia",
+    },
+    {
+      id: "acacio-mitilage",
       name: "Acácio Mitilage",
       photo: pic6,
-      cargo:"Advogado Associado Sénior"
+      cargo: "Advogado Associado Sénior",
     },
     {
       id: "leonardo-ngariamao",
       name: "Leonardo Ngariamao",
       photo: pic1,
-      cargo:"Advogado Estagiário"
-    },    
+      cargo: "Advogado Estagiário",
+    },
     {
       id: "luisa-fazenda",
       name: "Luísa Job Fazenda",
       photo: pic5,
-      cargo:"Recepcionista"
+      cargo: "Recepcionista",
     },
 
     {
-      id:"andre-matenga",
+      id: "andre-matenga",
       name: "André matenga",
       photo: pic3,
-      cargo:"Assistente Administrativo"
+      cargo: "Assistente Administrativo",
     },
-
-
-
+    {
+      id: "florinda-fazenda",
+      name: "Florinda Mezava Fazenda",
+      photo: pic7,
+      cargo: "",
+    },
   ];
 
   return (
@@ -76,7 +80,7 @@ export const Team = () => {
         </motion.p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+      <div className="grid justify-items-center items-center grid-cols-1 md:grid-cols-3 gap-6 mt-8">
         {teamMembers.map((member, index) => (
           <div
             key={index}
@@ -93,7 +97,9 @@ export const Team = () => {
                 <span className="text-white text-lg font-semibold">
                   {member.name}
                 </span>
-                <span className="text-white text-base font-light">Cargo: {member.cargo}</span>
+                <span className="text-white text-base font-light">
+                  Cargo: {member.cargo}
+                </span>
               </div>
             </Link>
           </div>
