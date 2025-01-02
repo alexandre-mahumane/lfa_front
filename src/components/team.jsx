@@ -28,6 +28,12 @@ export const Team = () => {
       cargo: "Advogada e Sócia",
     },
     {
+      id: "florinda-fazenda",
+      name: "Florinda Mezava Fazenda",
+      photo: pic7,
+      cargo: "",
+    },
+    {
       id: "acacio-mitilage",
       name: "Acácio Mitilage",
       photo: pic6,
@@ -52,12 +58,6 @@ export const Team = () => {
       photo: pic3,
       cargo: "Assistente Administrativo",
     },
-    {
-      id: "florinda-fazenda",
-      name: "Florinda Mezava Fazenda",
-      photo: pic7,
-      cargo: "",
-    },
   ];
 
   return (
@@ -80,7 +80,7 @@ export const Team = () => {
         </motion.p>
       </div>
 
-      <div className="grid justify-items-center items-center grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+      <div className="flex flex-wrap justify-center  gap-6 mt-8">
         {teamMembers.map((member, index) => (
           <div
             key={index}
