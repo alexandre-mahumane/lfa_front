@@ -2,7 +2,11 @@ import { TitleComponent } from "../title";
 import { ContactForm } from "./contact-form";
 import React from "react";
 import "../../i18n/i18n";
-import { AiOutlineMail, AiOutlinePhone, AiOutlineEnvironment } from "react-icons/ai";
+import {
+  AiOutlineMail,
+  AiOutlinePhone,
+  AiOutlineEnvironment,
+} from "react-icons/ai";
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
@@ -17,7 +21,7 @@ export const Contact = () => {
       <div>
         <TitleComponent text={t("contacts.title")} />
         <h3 className="font-bold text-lg mt-4 flex items-center">
-          <AiOutlineEnvironment  className="mr-2 text-blue-600" />
+          <AiOutlineEnvironment className="mr-2 text-blue-600" />
           {t("contacts.adress")}
         </h3>
         <p className="font-light">{t("contacts.text")}</p>
@@ -53,6 +57,8 @@ export const Contact = () => {
           (+258) 84 789 3310
         </a>
       </div>
+
+      <h5 className="font-semibold">{t("placeholders.var3")}</h5>
       <div className="flex space-x-4 mt-6">
         <a
           href="https://web.facebook.com/LFAAdvocacia"

@@ -8,6 +8,7 @@ import { Navbar } from "../components/navbar/navbar";
 import { Skills } from "../components/skills";
 import { Team } from "../components/team";
 import { Values } from "../components/values";
+import { FaWhatsapp } from "react-icons/fa";
 
 export const Home = () => {
   return (
@@ -19,7 +20,6 @@ export const Home = () => {
           <Values />
           <Skills />
           <Article />
-          
           <Team />
         </div>
 
@@ -30,6 +30,17 @@ export const Home = () => {
         </div>
       </div>
       <Footer />
+
+      {/* WhatsApp Icon */}
+      <a
+        href="https://wa.me/SEUNUMERO" // Substitua por seu número de WhatsApp
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition duration-300"
+        aria-label="Contact us on WhatsApp"
+      >
+        <FaWhatsapp size={24} />
+      </a>
     </>
   );
 };

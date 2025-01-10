@@ -41,23 +41,23 @@
 
   "whyLfa": {
     "title": "Why Choose LFA Advogados?",
-    "reason": "We offer expertise and commitment in various areas of law, including Labor, Commercial, Administrative, Criminal, Tax, Civil, and Procedural Law. With a highly qualified team, we ensure personalized service, focused on efficient solutions and protection of your rights. Our ethical and dedicated approach always seeks the best results for our clients, making us a reliable and strategic legal partner."
-    ,"value1": "Excellence and Quality",
+    "reason": "We offer expertise and commitment in various areas of law, including Labor, Commercial, Administrative, Criminal, Tax, Civil, and Procedural Law. With a highly qualified team, we ensure personalized service, focused on efficient solutions and protection of your rights. Our ethical and dedicated approach always seeks the best results for our clients, making us a reliable and strategic legal partner.",
+    "value1": "Excellence and Quality",
     "text1": "We offer high-level legal services with effective and personalized solutions, always meeting the specific needs of each client.",
     "value2": "Agile and Efficient Service",
     "text2": "We prioritize delivering timely results, ensuring that clients receive quick responses and decisive actions.",
     "value3": "Trust and Confidentiality",
     "text3": "We act with complete loyalty and confidentiality, ensuring absolute discretion and a trusting relationship in every case."
   },
- "team": {
+  "team": {
     "name": "team",
     "title": "Team",
     "text": "LFA Advogados, Lda has a team of Senior Lawyers with over 5 years of experience in law and more than 10 years in areas such as university teaching, legal advisory, and consulting. In addition, our Intern Lawyers, duly registered with the Bar Association, bring more than 5 years of experience in various areas of Law.",
     "text1": "With a highly competent, dynamic, and committed team, we offer services to a wide range of clients, both national and international, including individuals and large multinational companies. We serve in both Portuguese and English, also offering document translation services and interpreting and simultaneous translation services in hearings and events.",
-  
+
     "collaborators": {
-      "title" : "Position",
-      "title2" : "Professional Experience",
+      "title": "Position",
+      "title2": "Professional Experience",
       "luis-fazenda": {
         "practice-areas": {
           "position": "Lawyer and Partner"
@@ -220,57 +220,55 @@
           "highest-education": "High School Diploma"
         }
       }
-
     }
-}
-,
+  },
   "skills": {
     "link": "area-of-pratice",
     "title": "Areas of Practice",
     "text": "LFA Lawyers, Ltd. is a law firm that provides consulting and legal advisory services, judicial sponsorship, and legal assistance in various matters, with a major focus on the following areas: Labor Law, Commercial Law, Administrative Law, Criminal Law, Tax Law, Civil Law, and related Procedural Law.",
     "text2": "LFA Advogados, Lda offers specialized services in the following areas of law:",
-    
-      "area1": {
-        "title": "Legal Consulting and Advisory Services",
-        "description": "We offer specialized guidance and strategic solutions for legal matters, helping clients make informed decisions and comply with applicable legal regulations."
-      },
-      "area2": {
-        "title": "Judicial Representation",
-        "description": "We represent clients' interests in legal proceedings, ensuring technical and strategic defense in courts and other legal instances."
-      },
-      "area3": {
-        "title": "Legal Assistance in Various Areas",
-        "description1": "We provide comprehensive support on a wide range of legal issues, ensuring the protection of clients' rights and interests."
-        ,"description": ""
-      },
-      "area4": {
-        "title": "Labor Law",
-        "description": "Advisory services on labor relations, including contracts, dismissals, labor disputes, and compliance with labor legislation."
-      },
-      "area5": {
-        "title": "Commercial Law",
-        "description": "Legal guidance for businesses, including drafting commercial contracts, advising on corporate transactions, and resolving commercial disputes."
-      },
-      "area6": {
-        "title": "Tax Law",
-        "description": "Legal guidance for businesses, including drafting commercial contracts, advising on corporate transactions, and resolving commercial disputes."
-      },
-      "area7": {
-        "title": "Administrative Law",
-        "description": "Assistance with processes involving public entities, such as bidding, administrative contracts, and administrative litigation."
-      },
-      "area8": {
-        "title": "Criminal Law",
-        "description": "Technical defense in criminal cases, from the investigation phase to trial, ensuring the protection of clients' rights."
-      },
-      "area9": {
-        "title": "Civil Law",
-        "description": "Legal solutions in matters such as contracts, civil liability, family law, and inheritance."
-      },
-      "area10": {
-        "title": "Procedural Law",
-        "description": "Management of procedural activities in various areas of law, ensuring compliance with deadlines and effective strategies in legal proceedings."
-      }    
+
+    "area1": {
+      "title": "Legal Consulting and Advisory Services",
+      "description": "We offer specialized guidance and strategic solutions for legal matters, helping clients make informed decisions and comply with applicable legal regulations."
+    },
+    "area2": {
+      "title": "Judicial Representation",
+      "description": "We represent clients' interests in legal proceedings, ensuring technical and strategic defense in courts and other legal instances."
+    },
+    "area3": {
+      "title": "Legal Assistance in Various Areas",
+      "description1": "We provide comprehensive support on a wide range of legal issues, ensuring the protection of clients' rights and interests.",
+      "description": ""
+    },
+    "area4": {
+      "title": "Labor Law",
+      "description": "Advisory services on labor relations, including contracts, dismissals, labor disputes, and compliance with labor legislation."
+    },
+    "area5": {
+      "title": "Commercial Law",
+      "description": "Legal guidance for businesses, including drafting commercial contracts, advising on corporate transactions, and resolving commercial disputes."
+    },
+    "area6": {
+      "title": "Tax Law",
+      "description": "Legal guidance for businesses, including drafting commercial contracts, advising on corporate transactions, and resolving commercial disputes."
+    },
+    "area7": {
+      "title": "Administrative Law",
+      "description": "Assistance with processes involving public entities, such as bidding, administrative contracts, and administrative litigation."
+    },
+    "area8": {
+      "title": "Criminal Law",
+      "description": "Technical defense in criminal cases, from the investigation phase to trial, ensuring the protection of clients' rights."
+    },
+    "area9": {
+      "title": "Civil Law",
+      "description": "Legal solutions in matters such as contracts, civil liability, family law, and inheritance."
+    },
+    "area10": {
+      "title": "Procedural Law",
+      "description": "Management of procedural activities in various areas of law, ensuring compliance with deadlines and effective strategies in legal proceedings."
+    }
   },
   "contacts": {
     "name": "contact",
@@ -281,7 +279,7 @@
   "placeholders": {
     "var1": "Name",
     "var2": "Email",
-    "var3": "Phone",
+    "var3": "Follow us",
     "var4": "Type your message here.",
     "var5": "Send"
   },

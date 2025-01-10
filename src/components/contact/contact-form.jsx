@@ -7,14 +7,12 @@ export const ContactForm = () => {
   const { t } = useTranslation();
 
   const inputStyle =
-  "border w-full px-3 py-2 rounded-md shadow-sm outline-none focus:ring-2 focus:ring-blue-500 transition-all"; 
+    "border w-full px-3 py-2 rounded-md shadow-sm outline-none focus:ring-2 focus:ring-blue-500 transition-all";
   const [formData, setFormData] = useState({
     user_name: "",
     user_email: "",
     message: "",
   });
-
-
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -26,18 +24,17 @@ export const ContactForm = () => {
 
     try {
       const response = await emailjs.send(
-        "service_bzngms8",  
-        "template_478zk85",  
+        "service_bzngms8",
+        "template_478zk85",
         formData,
-        "tqdByWQC4N6RnkkMA" 
+        "tqdByWQC4N6RnkkMA"
       );
 
       if (response.status === 200) {
-        
-        setFormData({ user_name: "", user_email: "", message: "" }); 
+        setFormData({ user_name: "", user_email: "", message: "" });
       }
     } catch (error) {
-      console.log(error)
+      console.log(error);
     }
   };
 
@@ -47,39 +44,37 @@ export const ContactForm = () => {
 
       <form onSubmit={sendEmail} className="space-y-4">
         <div>
-          
           <input
             type="text"
             name="user_name"
             value={formData.user_name}
             onChange={handleChange}
             required
-            placeholder={t("placeholders.var1")} className={inputStyle} 
+            placeholder={t("placeholders.var1")}
+            className={inputStyle}
           />
         </div>
 
         <div>
-        
           <input
             type="email"
             name="user_email"
             value={formData.user_email}
             onChange={handleChange}
             required
-            placeholder={t("placeholders.var1")} className={inputStyle} 
-
+            placeholder={t("placeholders.var2")}
+            className={inputStyle}
           />
         </div>
 
         <div>
-         
           <textarea
             name="message"
             value={formData.message}
             onChange={handleChange}
             required
-            placeholder={t("placeholders.var1")} className={inputStyle} 
-
+            placeholder={t("placeholders.var4")}
+            className={inputStyle}
           ></textarea>
         </div>
 
@@ -89,8 +84,6 @@ export const ContactForm = () => {
         >
           Enviar
         </button>
-
-  
       </form>
     </section>
   );
