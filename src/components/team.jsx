@@ -54,7 +54,7 @@ export const Team = () => {
 
     {
       id: "andre-matenga",
-      name: "André matenga",
+      name: "André Matenga",
       photo: pic3,
       cargo: "Assistente Administrativo",
     },
