@@ -176,6 +176,32 @@
           "english": "Excelente"
         }
       },
+      "florinda-mezava-fazenda": {
+        "practice-areas": {
+          "position": "Advogado"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2025-Actualidade",
+            "position": "Docente e Advogada no escritório dos advogados-Luis fazenda Advogados, Lda."
+          },
+          {
+            "year-range": "2022-2024",
+            "position": "Docente N1 na especialidade de legislação laboral mediação e resolução de conflitos no IFPELAC e advogada estagiária na Ordem dos Advogados de Moçambique."
+          },
+          {
+            "year-range": "2018-2019",
+            "position": "Estágio em práticas forenses no centro de práticas jurídicas da faculdade de Direito da UEM."
+          },
+          {
+            "year-range": "2017",
+            "position": "Formação técnica em gestão de recursos humanos na técnicol Moçambique ."
+          }
+        ],
+        "language-proficiency": {
+          "english": "Excelente"
+        }
+      },
       "luisa-fazenda": {
         "practice-areas": {
           "position": "Recepcionista"
@@ -355,5 +381,31 @@
   },
   "footer": {
     "text": "LFA ADVOGADOS. Todos os direitos reservados"
+  },
+
+  "terms": {
+    "cookies": {
+      "intro": " Este site usa cookies para melhorar sua experiência. ",
+      "terms": "Saiba mais."
+    },
+    "title": "Termos de Uso",
+    "intro": "Bem-vindo ao LFA Advogados. Ao acessar e usar este site, você concorda com os seguintes termos e condições.",
+    "section1": {
+      "title": "1. Informações Gerais",
+      "content": "LFA Advogados é um escritório de advocacia que oferece serviços jurídicos em diversas áreas do direito. Todo o conteúdo deste site é apenas para fins informativos."
+    },
+    "section2": {
+      "title": "2. Propriedade Intelectual",
+      "content": "Todo o conteúdo deste site, incluindo texto, imagens e logotipos, são propriedade intelectual do LFA Advogados e estão protegidos pelas leis de direitos autorais."
+    },
+    "section3": {
+      "title": "3. Limitação de Responsabilidade",
+      "content": "O LFA Advogados não é responsável por danos ou perdas decorrentes do uso deste site ou seu conteúdo."
+    },
+    "section4": {
+      "title": "4. Política de Privacidade",
+      "content": "Ao usar este site, você concorda com nossa política de privacidade, que descreve como coletamos e usamos suas informações pessoais."
+    },
+    "acceptance": "Ao usar nosso site, você aceita estes termos de uso."
   }
 }

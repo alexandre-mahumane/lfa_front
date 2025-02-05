@@ -6,6 +6,7 @@ import pic3 from "../../assets/lawyer3.jpg";
 import pic4 from "../../assets/lawyer4.jpg";
 import pic5 from "../../assets/lawyer5.jpg";
 import pic6 from "../../assets/lawyer6.jpg";
+import pic7 from "../../assets/lawyer7.jpg";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { Footer } from "../../components/footer";
@@ -37,6 +38,18 @@ export const Member = () => {
       ),
     },
     {
+      id: "florinda-fazenda",
+      name: "Florinda Mezava Fazenda ",
+      photo: pic7,
+      position: t(
+        "team.collaborators.florinda-mezava-fazenda.practice-areas.position"
+      ),
+      professionalExperience: t(
+        "team.collaborators.florinda-mezava-fazenda.professional-experience",
+        { returnObjects: true }
+      ),
+    },
+    {
       id: "acacio-mitilage",
       name: "Acácio Mitilage",
       photo: pic6,
@@ -50,7 +63,9 @@ export const Member = () => {
       id: "leonardo-ngariamao",
       name: "Leonardo Ngariamao",
       photo: pic1,
-      position: t("team.collaborators.leonardo-ngariamao.practice-areas.position"),
+      position: t(
+        "team.collaborators.leonardo-ngariamao.practice-areas.position"
+      ),
       professionalExperience: t(
         "team.collaborators.leonardo-ngariamao.professional-experience",
         { returnObjects: true }
@@ -97,7 +112,7 @@ export const Member = () => {
       <Navbar />
       <section className=" px-3 min-h-screen max-w-7xl mx-auto py-8 mt-16 lg:mt-24 w-full sm:px-8 sm:py-12 lg:px-16 lg:py-20 bg-gray-50 text-gray-800">
         <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-8 text-base sm:text-lg lg:text-xl leading-relaxed">
-          <div className="w-full lg:w-1/2 max-w-lg lg:max-w-none h-auto">
+          <div className="w-full lg:w-1/2 max-w-lg lg:max-w-none h-[40rem]">
             <img
               src={filteredMember.photo}
               alt={filteredMember.name}
@@ -109,28 +124,32 @@ export const Member = () => {
             <h2 className="text-2xl font-bold sm:text-3xl lg:text-4xl text-blue-600">
               {filteredMember.name}
             </h2>
-<h3 className="font-bold text-blue-600">{t(
-        "team.collaborators.title")}</h3>
+            <h3 className="font-bold text-blue-600">
+              {t("team.collaborators.title")}
+            </h3>
             <ul className="space-y-2 list-disc list-inside">
-              
-              <li >{filteredMember.position || "Informação não disponível"}</li>
+              <li>{filteredMember.position || "Informação não disponível"}</li>
             </ul>
-<h3 className="font-bold text-blue-600">{t(
-        "team.collaborators.title2")}</h3>
-{Array.isArray(filteredMember.professionalExperience) && filteredMember.professionalExperience.length > 0 ? (
-  <ul className="space-y-2  list-disc list-inside">
-    {filteredMember.professionalExperience.map((exp, index) => (
-      <li key={index} className="flex flex-col space-x-5 w-full md:flex-row  ">
-        <p className="font-medium w-60 ">{exp["year-range"]}</p>
-        {/* <span className="mx-2">-</span> */}
-        <p className="md:w-5/6">{exp.position}</p>
-      </li>
-    ))}
-  </ul>
-) : (
-  <p>Nenhuma experiência profissional disponível.</p>
-)}
-
+            <h3 className="font-bold text-blue-600">
+              {t("team.collaborators.title2")}
+            </h3>
+            {Array.isArray(filteredMember.professionalExperience) &&
+            filteredMember.professionalExperience.length > 0 ? (
+              <ul className="space-y-2  list-disc list-inside">
+                {filteredMember.professionalExperience.map((exp, index) => (
+                  <li
+                    key={index}
+                    className="flex flex-col space-x-5 w-full md:flex-row  "
+                  >
+                    <p className="font-medium w-60 ">{exp["year-range"]}</p>
+                    {/* <span className="mx-2">-</span> */}
+                    <p className="md:w-5/6">{exp.position}</p>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p>Nenhuma experiência profissional disponível.</p>
+            )}
           </div>
         </div>
       </section>

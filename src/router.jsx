@@ -16,6 +16,7 @@ import { WhyLfaInformation } from "./pages/information/why-lfa.information";
 import { TeamInformation } from "./pages/information/team.information";
 import { ArticleInformation } from "./pages/information/article.information";
 import { ContactInformation } from "./pages/information/contacts.information";
+import TermsOfUse from "./pages/termsOfUse";
 
 export const routes = createBrowserRouter([
   {
@@ -33,15 +34,15 @@ export const routes = createBrowserRouter([
   },
   {
     path: "information/team",
-    element: <TeamInformation/>,
+    element: <TeamInformation />,
   },
   {
     path: "information/contact",
-    element: <ContactInformation/>,
+    element: <ContactInformation />,
   },
   {
     path: "information/article",
-    element: <ArticleInformation/>,
+    element: <ArticleInformation />,
   },
   {
     path: "information/about-us",
@@ -62,6 +63,10 @@ export const routes = createBrowserRouter([
   {
     path: "/admin",
     element: <Admin />,
+  },
+  {
+    path: "/terms-of-use",
+    element: <TermsOfUse />,
   },
   {
     path: "/login/",

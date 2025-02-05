@@ -1,5 +1,6 @@
 import { Article } from "../components/article";
 import { Contact } from "../components/contact/contact";
+import CookieConsent from "../components/cookies";
 import { FeedbackComponent } from "../components/feedback";
 import { Footer } from "../components/footer";
 import { Hero } from "../components/hero";
@@ -13,6 +14,7 @@ import { FaWhatsapp } from "react-icons/fa";
 export const Home = () => {
   return (
     <>
+      {/* <CookieConsent /> */}
       <Navbar />
       <div className="bg-gray-100 text-gray-900">
         <Hero />

@@ -202,6 +202,33 @@
           }
         ]
       },
+      "florinda-mezava-fazenda": {
+        "practice-areas": {
+          "position": "Lawyer"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2025-Present",
+            "position": "Lecturer and Lawyer at Luis Fazenda Law Firm, Lda."
+          },
+          {
+            "year-range": "2022-2024",
+            "position": "Lecturer N1 in Labor Legislation, Mediation, and Conflict Resolution at IFPELAC and Trainee Lawyer at the Mozambique Bar Association."
+          },
+          {
+            "year-range": "2018-2019",
+            "position": "Intern in Forensic Practice at the Legal Practice Center of the Faculty of Law, UEM."
+          },
+          {
+            "year-range": "2017",
+            "position": "Technical Training in Human Resource Management at Técnicol Mozambique."
+          }
+        ],
+        "language-proficiency": {
+          "english": "Excellent"
+        }
+      },
+
       "andre-matenga": {
         "practice-areas": {
           "position": "Administrative Assistant"
@@ -358,5 +385,31 @@
   },
   "footer": {
     "text": "LFA LAWYERS. All rights reserved"
+  },
+
+  "terms": {
+    "cookies": {
+      "intro": " This website uses cookies to improve your experience. ",
+      "terms": "For more."
+    },
+    "title": "Terms of Use",
+    "intro": "Welcome to LFA Advogados. By accessing and using this website, you agree to the following terms and conditions.",
+    "section1": {
+      "title": "1. General Information",
+      "content": "LFA Advogados is a law firm providing legal services in various areas of law. All content on this website is for informational purposes only."
+    },
+    "section2": {
+      "title": "2. Intellectual Property",
+      "content": "All content on this site, including text, images, and logos, are the intellectual property of LFA Advogados and are protected by copyright laws."
+    },
+    "section3": {
+      "title": "3. Limitation of Liability",
+      "content": "LFA Advogados is not liable for any damages or losses arising from the use of this website or its content."
+    },
+    "section4": {
+      "title": "4. Privacy Policy",
+      "content": "By using this website, you agree to our privacy policy, which outlines how we collect and use your personal information."
+    },
+    "acceptance": "By using our website, you accept these terms of use."
   }
 }

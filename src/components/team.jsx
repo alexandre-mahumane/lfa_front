@@ -19,37 +19,39 @@ export const Team = () => {
       id: "luis-fazenda",
       name: "Luís José Fazenda",
       photo: pic2,
-      cargo: "Sócio Administrador e Advogado",
+      cargo: t("team.collaborators.luis-fazenda.practice-areas.position"),
     },
     {
       id: "shaida-carimo",
       name: "Shaida Abdul Carimo",
       photo: pic4,
-      cargo: "Advogada e Sócia",
+      cargo: t("team.collaborators.shaida-carimo.practice-areas.position"),
     },
     {
       id: "florinda-fazenda",
       name: "Florinda Mezava Fazenda",
       photo: pic7,
-      cargo: "",
+      cargo: t(
+        "team.collaborators.florinda-mezava-fazenda.practice-areas.position"
+      ),
     },
     {
       id: "acacio-mitilage",
       name: "Acácio Mitilage",
       photo: pic6,
-      cargo: "Advogado Associado Sénior",
+      cargo: t("team.collaborators.acacio-mitilage.practice-areas.position"),
     },
     {
       id: "leonardo-ngariamao",
       name: "Leonardo Ngariamao",
       photo: pic1,
-      cargo: "Advogado Estagiário",
+      cargo: t("team.collaborators.leonardo-ngariamao.practice-areas.position"),
     },
     {
       id: "luisa-fazenda",
       name: "Luísa Job Fazenda",
       photo: pic5,
-      cargo: "Recepcionista",
+      cargo: t("team.collaborators.luisa-fazenda.practice-areas.position"),
     },
 
     {
@@ -98,7 +100,8 @@ export const Team = () => {
                   {member.name}
                 </span>
                 <span className="text-white text-base font-light">
-                  Cargo: {member.cargo}
+                  {t("team.collaborators.title")}
+                  {": "} {member.cargo}
                 </span>
               </div>
             </Link>
