@@ -60,32 +60,40 @@
       "title2": "Professional Experience",
       "luis-fazenda": {
         "practice-areas": {
-          "position": "Lawyer and Partner"
+          "position": "Lawyer and Managing Partner"
         },
         "professional-experience": [
           {
-            "year-range": "2018-present",
-            "position": "Managing Partner and Lawyer at LFA Advogados, Lda"
+            "year-range": "2018-Present",
+            "position": "Lawyer and Managing Partner at LFA Advogados, Lda"
+          },
+          {
+            "year-range": "2020-Present",
+            "position": "Member of the Board of Directors of INSS"
+          },
+          {
+            "year-range": "2020",
+            "position": "Legal Advisor to the Secretary of State for Youth and Employment"
           },
           {
             "year-range": "2014-2019",
-            "position": "Head of the Legal Advisory Department at the Mozambique Commodities Exchange"
-          },
-          {
-            "year-range": "2012-present",
-            "position": "Lawyer registered with the Bar Association of Mozambique"
-          },
-          {
-            "year-range": "2011-present",
-            "position": "University Lecturer"
-          },
-          {
-            "year-range": "2011-2014",
-            "position": "Legal Advisor at the Pedagogical Directorate of Eduardo Mondlane University"
+            "position": "Head of the Legal Advisory Department at the Mozambique Commodity Exchange"
           },
           {
             "year-range": "2013",
-            "position": "Intern Lawyer at Benjamim Alfredo e Associados"
+            "position": "Trainee Lawyer at Benjamim Alfredo e Associados"
+          },
+          {
+            "year-range": "2012-Present",
+            "position": "Lawyer registered with the Mozambique Bar Association"
+          },
+          {
+            "year-range": "2011-2014",
+            "position": "Jurist at the Pedagogical Directorate of Eduardo Mondlane University"
+          },
+          {
+            "year-range": "2011-Present",
+            "position": "University Lecturer"
           },
           {
             "year-range": "2009-2010",
@@ -102,24 +110,24 @@
         },
         "professional-experience": [
           {
-            "year-range": "2022-present",
-            "position": "University Lecturer"
+            "year-range": "2022-Present",
+            "position": "Lawyer and University Lecturer"
           },
           {
-            "year-range": "2019-present",
+            "year-range": "2019-Present",
             "position": "Lawyer and Partner at Luís Fazenda Advogados, Lda"
           },
           {
             "year-range": "2010-2019",
-            "position": "Coordinator of the Legal and Legal Department at Proconsult, Lda"
+            "position": "Coordinator of the Legal and Compliance Department at Proconsult, Lda"
+          },
+          {
+            "year-range": "2009",
+            "position": "Trainer at the Human Rights Center of the Faculty of Law at Eduardo Mondlane University"
           },
           {
             "year-range": "2009-2010",
             "position": "Legal Technician at IPAJ"
-          },
-          {
-            "year-range": "2009",
-            "position": "Trainer at the Human Rights Center of the Faculty of Law, Eduardo Mondlane University"
           }
         ],
         "language-proficiency": {
@@ -132,7 +140,7 @@
         },
         "professional-experience": [
           {
-            "year-range": "2022-present",
+            "year-range": "2022-Present",
             "position": "Lawyer at Luís Fazenda Advogados, Lda"
           },
           {
@@ -140,16 +148,16 @@
             "position": "Judge"
           },
           {
-            "year-range": "2010-present",
+            "year-range": "2012",
+            "position": "Jurist at the Municipal Council of Pemba City"
+          },
+          {
+            "year-range": "2010-Present",
             "position": "University Lecturer (teaching at ISCTAC, ESEG, UCM, MUSSA BIN BIQUE)"
           },
           {
-            "year-range": "2012",
-            "position": "Legal Advisor to the Municipal Council of the City of Pemba"
-          },
-          {
             "year-range": "2010-2013",
-            "position": "Lawyer registered with OAM"
+            "position": "Lawyer registered with the Mozambique Bar Association"
           },
           {
             "year-range": "2008-2010",
@@ -159,16 +167,16 @@
       },
       "leonardo-ngariamao": {
         "practice-areas": {
-          "position": "Intern Lawyer"
+          "position": "Trainee Lawyer"
         },
         "professional-experience": [
           {
-            "year-range": "2018-present",
-            "position": "Intern Lawyer at Luís Fazenda Advogados, Lda"
+            "year-range": "2018-Present",
+            "position": "Trainee Lawyer at Luís Fazenda Advogados, Lda"
           },
           {
             "year-range": "2016-2018",
-            "position": "Banking Law Trainer at the UMBILA Banking Training Center"
+            "position": "Banking Law Trainer at UMBILA Banking Training Center"
           },
           {
             "year-range": "2016-2017",
@@ -176,11 +184,41 @@
           },
           {
             "year-range": "2016",
-            "position": "Head of the Legal Department at the Youth Observatory"
+            "position": "Legal Assistant at AMOZAIC Association"
           },
           {
             "year-range": "2016",
-            "position": "Legal Assistant at AMOZAIC Association"
+            "position": "Head of the Legal Department at the Youth Observatory"
+          }
+        ],
+        "language-proficiency": {
+          "english": "Excellent"
+        }
+      },
+      "florinda-mezava-fazenda": {
+        "practice-areas": {
+          "position": "Lawyer"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2025-Present",
+            "position": "Lecturer and Lawyer at Luís Fazenda Advogados, Lda"
+          },
+          {
+            "year-range": "2020-Present",
+            "position": "General Director of Wakanaka Investimentos Lda"
+          },
+          {
+            "year-range": "2022-2024",
+            "position": "Lecturer in labor law, mediation, and conflict resolution at IFPELAC"
+          },
+          {
+            "year-range": "2022-2024",
+            "position": "Trainee Lawyer at the Mozambique Bar Association"
+          },
+          {
+            "year-range": "2018-2019",
+            "position": "Intern in forensic practices at the Legal Practice Center of the Faculty of Law at UEM"
           }
         ],
         "language-proficiency": {
@@ -194,39 +232,17 @@
         "professional-experience": [
           {
             "year-range": "2022",
-            "position": "Receptionist at LFA Advogados, Lda"
+            "position": "Administrative Secretary at LFA Advogados, Lda"
           },
           {
             "year-range": "2019",
-            "position": "Professional Internship at the District Administration of Magude"
+            "position": "Professional Internship at the Magude District Administration"
+          },
+          {
+            "year-range": "2019",
+            "position": "Public Administration Specialist from UEM"
           }
         ]
-      },
-      "florinda-mezava-fazenda": {
-        "practice-areas": {
-          "position": "Lawyer"
-        },
-        "professional-experience": [
-          {
-            "year-range": "2025-Present",
-            "position": "Lecturer and Lawyer at Luis Fazenda Law Firm, Lda."
-          },
-          {
-            "year-range": "2020-Present",
-            "position": "General Director of Wakanaka Investimentos Lda."
-          },
-          {
-            "year-range": "2022-2024",
-            "position": "Lecturer N1 in Labor Legislation, Mediation, and Conflict Resolution at IFPELAC and Trainee Lawyer at the Mozambique Bar Association."
-          },
-          {
-            "year-range": "2018-2019",
-            "position": "Intern in Forensic Practice at the Legal Practice Center of the Faculty of Law, UEM."
-          }
-        ],
-        "language-proficiency": {
-          "english": "Excellent"
-        }
       },
 
       "andre-matenga": {
