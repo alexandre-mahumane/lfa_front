@@ -1,11 +1,11 @@
 import { TitleComponent } from "./title";
-import pic1 from "../assets/lawyer1.jpg";
-import pic2 from "../assets/lawyer2.jpg";
-import pic3 from "../assets/lawyer3.jpg";
-import pic4 from "../assets/lawyer4.jpg";
-import pic5 from "../assets/lawyer5.jpg";
-import pic6 from "../assets/lawyer6.jpg";
-import pic7 from "../assets/lawyer7.jpg";
+import pic1 from "../assets/lawyer1.png";
+import pic2 from "../assets/lawyer2.png";
+import pic3 from "../assets/lawyer3.png";
+import pic4 from "../assets/lawyer4.png";
+import pic5 from "../assets/lawyer5.png";
+import pic6 from "../assets/lawyer6.png";
+import pic7 from "../assets/lawyer7.png";
 import { useTranslation } from "react-i18next";
 import React from "react";
 import "../i18n/i18n";
