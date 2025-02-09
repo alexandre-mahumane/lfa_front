@@ -49,12 +49,20 @@
 
       "luis-fazenda": {
         "practice-areas": {
-          "position": "Advogado e Sócio"
+          "position": "Advogado e Sócio administrador"
         },
         "professional-experience": [
           {
             "year-range": "2018-Actualidade ",
-            "position": "Sócio Administrador e Advogado no Escritório de Advogados – LFA Advogados, Lda"
+            "position": "Advogado e Sócio Administrador no Escritório de Advogados – LFA Advogados, Lda"
+          },
+          {
+            "year-range": "2020-Actualidade",
+            "position": "Membro do Colectivo de Direcção do INSS"
+          },
+          {
+            "year-range": "2020",
+            "position": "Assessor Jurídico do Secretário de Estado de Juventude e Emprego, na Secretaria de Estado de Juventude e Emprego."
           },
           {
             "year-range": "2014-2019 ",
@@ -92,7 +100,7 @@
         "professional-experience": [
           {
             "year-range": "2022-Actualidade ",
-            "position": "Docente universitária"
+            "position": "Advogada e Docente universitária"
           },
           {
             "year-range": "2019-Actualidade ",
@@ -191,7 +199,11 @@
           },
           {
             "year-range": "2022-2024",
-            "position": "Docente N1 na especialidade de legislação laboral mediação e resolução de conflitos no IFPELAC e advogada estagiária na Ordem dos Advogados de Moçambique."
+            "position": "Docente  na especialidade de legislação laboral, mediação e resolução de conflitos no IFPELAC."
+          },
+          {
+            "year-range": "2022-2024",
+            "position": " Advogada Estagiária na Ordem dos Advogados de Moçambique."
           },
           {
             "year-range": "2018-2019",
@@ -209,11 +221,15 @@
         "professional-experience": [
           {
             "year-range": "2022",
-            "position": "Recepcionista LFA Advogados, Lda"
+            "position": "Secretária admnistrativa na LFA Advogados, Lda"
           },
           {
             "year-range": "2019",
             "position": "Estágio Profissional na Administração Distrital de Magude"
+          },
+          {
+            "year-range": "2019",
+            "position": "Técnica Superior em Administração Pública pela UEM"
           }
         ]
       },
