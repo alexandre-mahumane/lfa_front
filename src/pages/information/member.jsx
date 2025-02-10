@@ -112,7 +112,7 @@ export const Member = () => {
       <Navbar />
       <section className=" px-3 min-h-screen max-w-7xl mx-auto py-8 mt-16 lg:mt-24 w-full sm:px-8 sm:py-12 lg:px-16 lg:py-20 bg-gray-50 text-gray-800">
         <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-6 lg:space-y-0 lg:space-x-8 text-base sm:text-lg lg:text-xl leading-relaxed">
-          <div className="w-full lg:w-1/2 max-w-lg lg:max-w-none h-[40rem]">
+          <div className="w-full lg:w-1/2 max-w-lg lg:max-w-none h-96 md:h-[40rem]">
             <img
               src={filteredMember.photo}
               alt={filteredMember.name}
