@@ -7,6 +7,8 @@ import pic4 from "../../assets/lawyer4.png";
 import pic5 from "../../assets/lawyer5.png";
 import pic6 from "../../assets/lawyer6.png";
 import pic7 from "../../assets/lawyer7.png";
+import pic8 from "../../assets/lawyer8.png";
+import pic9 from "../../assets/lawyer9.png";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { Footer } from "../../components/footer";
@@ -46,6 +48,18 @@ export const Member = () => {
       ),
       professionalExperience: t(
         "team.collaborators.florinda-mezava-fazenda.professional-experience",
+        { returnObjects: true }
+      ),
+    },
+    {
+      id: "carlitos-jeremias",
+      name: "Carlitos Abdala  Jeremias",
+      photo: pic8,
+      position: t(
+        "team.collaborators.carlitos-jeremias.practice-areas.position"
+      ),
+      professionalExperience: t(
+        "team.collaborators.carlitos-jeremias.professional-experience",
         { returnObjects: true }
       ),
     },

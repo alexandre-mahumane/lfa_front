@@ -262,6 +262,42 @@
         "education": {
           "highest-education": "High School Diploma"
         }
+      },
+      "carlitos-jeremias": {
+        "practice-areas": {
+          "position": "Trainee Lawyer"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2025-Present",
+            "position": "Trainee Lawyer no Escritório de Advogados - Luís Fazenda Advogados, Lda."
+          },
+          {
+            "year-range": "2014",
+            "position": "Formador de Gestão de Seguros e Direito Bancário no Centro de Treinamento Bancário UMBILA."
+          }
+        ],
+        "education": {
+          "highest-education": "High School Diploma"
+        }
+      },
+      "tania-carlos": {
+        "practice-areas": {
+          "position": "Trainee Lawyer"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2025-Present",
+            "position": "Lawyer at the Lawyers Office-Luis Fazenda Advogados, Lda."
+          },
+          {
+            "year-range": "2014",
+            "position": "IPAJ Legal Technician-Public Defender."
+          }
+        ],
+        "education": {
+          "highest-education": "High School Diploma"
+        }
       }
     }
   },

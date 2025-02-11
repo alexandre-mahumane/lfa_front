@@ -6,6 +6,8 @@ import pic4 from "../assets/lawyer4.png";
 import pic5 from "../assets/lawyer5.png";
 import pic6 from "../assets/lawyer6.png";
 import pic7 from "../assets/lawyer7.png";
+import pic8 from "../assets/lawyer8.png";
+import pic9 from "../assets/lawyer9.png";
 import { useTranslation } from "react-i18next";
 import React from "react";
 import "../i18n/i18n";
@@ -52,6 +54,18 @@ export const Team = () => {
       name: "Luísa Job Fazenda",
       photo: pic5,
       cargo: t("team.collaborators.luisa-fazenda.practice-areas.position"),
+    },
+    {
+      id: "carlitos-jeremias",
+      name: "Carlitos Abdala Jeremias",
+      photo: pic8,
+      cargo: t("team.collaborators.carlitos-jeremias.practice-areas.position"),
+    },
+    {
+      id: "tania-carlos",
+      name: "Tânia Carlos",
+      photo: pic9,
+      cargo: t("team.collaborators.tania-carlos.practice-areas.position"),
     },
 
     {

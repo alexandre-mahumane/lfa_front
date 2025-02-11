@@ -216,7 +216,7 @@
       },
       "luisa-fazenda": {
         "practice-areas": {
-          "position": "Secretária Admnistrativa"
+          "position": "Secretária Administrativa"
         },
         "professional-experience": [
           {
@@ -245,6 +245,42 @@
           {
             "year-range": "2016-2019",
             "position": "Barman no Madjedje Club"
+          }
+        ],
+        "education": {
+          "highest-education": "Ensino médio completo"
+        }
+      },
+      "carlitos-jeremias": {
+        "practice-areas": {
+          "position": "Advogado Estagiário"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2025-Actualmente",
+            "position": "Advogado Estagiário no Escritório de Advogados - Luís Fazenda Advogados, Lda."
+          },
+          {
+            "year-range": "2014",
+            "position": "Formador de Gestão de Seguros e Direito Bancário no Centro de Treinamento Bancário UMBILA."
+          }
+        ],
+        "education": {
+          "highest-education": "Ensino médio completo"
+        }
+      },
+      "tania-carlos": {
+        "practice-areas": {
+          "position": "Advogada Estagiária"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2025-Actualmente",
+            "position": "Advogada Estagiária no Escritório de Advogados - Luís Fazenda Advogados, Lda."
+          },
+          {
+            "year-range": "2014",
+            "position": "Técnica Juridíca do IPAJ-Denfesora Pública."
           }
         ],
         "education": {
