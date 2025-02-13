@@ -30,6 +30,16 @@ export const Member = () => {
       ),
     },
     {
+      id: "tania-carlos",
+      name: "Tânia Carlos",
+      photo: pic2,
+      position: t("team.collaborators.tania-carlos.practice-areas.position"),
+      professionalExperience: t(
+        "team.collaborators.tania-carlos.professional-experience",
+        { returnObjects: true }
+      ),
+    },
+    {
       id: "shaida-carimo",
       name: "Shaida Abdul Carimo",
       photo: pic4,

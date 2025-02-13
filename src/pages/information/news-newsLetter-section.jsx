@@ -3,6 +3,9 @@ import "../../i18n/i18n";
 import photo1 from "../../assets/news1.jpeg";
 import photo2 from "../../assets/news2.jpeg";
 import photo3 from "../../assets/news3.jpeg";
+import photo4 from "../../assets/news4.jpeg";
+import photo5 from "../../assets/news5.jpeg";
+import photo6 from "../../assets/news6.jpeg";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { TitleComponent } from "../../components/title";
@@ -24,6 +27,15 @@ export const News = () => {
     } else if (id == 3) {
       setContent("news3");
       setImg(photo3);
+    } else if (id == 4) {
+      setContent("news4");
+      setImg(photo4);
+    } else if (id == 5) {
+      setContent("news5");
+      setImg(photo5);
+    } else if (id == 6) {
+      setContent("news6");
+      setImg(photo6);
     }
   }, [id]);
   return (
