@@ -37,12 +37,12 @@ export const Team = () => {
         "team.collaborators.florinda-mezava-fazenda.practice-areas.position"
       ),
     },
-    {
-      id: "acacio-mitilage",
-      name: "Acácio Mitilage",
-      photo: pic6,
-      cargo: t("team.collaborators.acacio-mitilage.practice-areas.position"),
-    },
+    // {
+    //   id: "acacio-mitilage",
+    //   name: "Acácio Mitilage",
+    //   photo: pic6,
+    //   cargo: t("team.collaborators.acacio-mitilage.practice-areas.position"),
+    // },
     {
       id: "leonardo-ngariamao",
       name: "Leonardo Ngariamao",
