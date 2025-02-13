@@ -4,7 +4,8 @@ import photo1 from "../assets/news2.jpeg";
 import photo2 from "../assets/news3.jpeg";
 import photo3 from "../assets/news4.jpeg";
 import photo4 from "../assets/news5.jpeg";
-import photo5 from "../assets/news6.jpeg";
+import photo6 from "../assets/news6.jpeg";
+import photo5 from "../assets/news7.jpeg";
 import { TitleComponent } from "./title";
 import React from "react";
 import "../i18n/i18n";
@@ -43,7 +44,7 @@ export const Article = () => {
         <Card
           path={"news/4"}
           variant={"N"}
-          pic={photo3}
+          pic={photo6}
           text={t("article.news4.title")}
           title={t("article.news4.intro")}
         />
@@ -55,7 +56,7 @@ export const Article = () => {
           title={t("article.news5.intro")}
         />
         <Card
-          path={"news/5"}
+          path={"news/6"}
           variant={"N"}
           pic={photo5}
           text={t("article.news5.title")}
