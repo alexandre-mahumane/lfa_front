@@ -22,26 +22,6 @@ export const Article = () => {
       </div>
       <section className="md:p-6 w-full md:space-x-4 grid grid-cols-1 content-center md:grid-cols-2 items-center bg-blue-50">
         <Card
-          pic={photo}
-          text={t("article.news1.title")}
-          title={t("article.news1.intro")}
-          path={"news/1"}
-        />
-        <Card
-          pic={photo1}
-          text={t("article.news2.title")}
-          title={t("article.news2.intro")}
-          path={"news/2"}
-        />
-
-        <Card
-          path={"news/3"}
-          variant={"N"}
-          pic={photo2}
-          text={t("article.news3.title")}
-          title={t("article.news3.intro")}
-        />
-        <Card
           path={"news/4"}
           variant={"N"}
           pic={photo6}
@@ -61,6 +41,26 @@ export const Article = () => {
           pic={photo5}
           text={t("article.news5.title")}
           title={t("article.news5.intro")}
+        />
+        <Card
+          pic={photo}
+          text={t("article.news1.title")}
+          title={t("article.news1.intro")}
+          path={"news/1"}
+        />
+        <Card
+          pic={photo1}
+          text={t("article.news2.title")}
+          title={t("article.news2.intro")}
+          path={"news/2"}
+        />
+
+        <Card
+          path={"news/3"}
+          variant={"N"}
+          pic={photo2}
+          text={t("article.news3.title")}
+          title={t("article.news3.intro")}
         />
       </section>
     </article>
