@@ -57,13 +57,13 @@ export const Team = () => {
     },
     {
       id: "carlitos-jeremias",
-      name: "Carlitos Abdala Jeremias",
+      name: "Carlitos Jeremias Abdala",
       photo: pic8,
       cargo: t("team.collaborators.carlitos-jeremias.practice-areas.position"),
     },
     {
       id: "tania-carlos",
-      name: "Tânia Carlos",
+      name: "Tânia Carlos Michaque",
       photo: pic9,
       cargo: t("team.collaborators.tania-carlos.practice-areas.position"),
     },
