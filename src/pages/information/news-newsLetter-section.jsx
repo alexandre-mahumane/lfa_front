@@ -7,6 +7,7 @@ import photo4 from "../../assets/news4.jpeg";
 import photo5 from "../../assets/news5.jpeg";
 import photo6 from "../../assets/news6.jpeg";
 import photo7 from "../../assets/news7.jpeg";
+import photo8 from "../../assets/news8.jpeg";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { TitleComponent } from "../../components/title";
@@ -37,6 +38,9 @@ export const News = () => {
     } else if (id == 6) {
       setContent("news6");
       setImg(photo4);
+    } else if (id == 7) {
+      setContent("news7");
+      setImg(photo8);
     }
   }, [id]);
   return (
@@ -95,6 +99,18 @@ export const News = () => {
                   </h3>
                   <p>{t(`article.${content}.body.section4.text`)}</p>
                 </div>
+              </div>
+            )}
+            {content == "news7" && (
+              <div className="space-y-5 w-full">
+                <h3 className="font-bold text-blue-600">
+                  {t(`article.${content}.body.section4.title`)}
+                </h3>
+                <p>{t(`article.${content}.body.section4.text`)}</p>
+                <h3 className="font-bold text-blue-600">
+                  {t(`article.${content}.body.section5.title`)}
+                </h3>
+                <p>{t(`article.${content}.body.section5.text`)}</p>
               </div>
             )}
           </div>

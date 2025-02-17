@@ -6,6 +6,7 @@ import photo3 from "../assets/news4.jpeg";
 import photo4 from "../assets/news5.jpeg";
 import photo6 from "../assets/news6.jpeg";
 import photo5 from "../assets/news7.jpeg";
+import photo8 from "../assets/news8.jpeg";
 import { TitleComponent } from "./title";
 import React from "react";
 import "../i18n/i18n";
@@ -21,6 +22,13 @@ export const Article = () => {
         <TitleComponent text={"Newsletters"} />
       </div>
       <section className="md:p-6 w-full md:space-x-4 grid grid-cols-1 content-center md:grid-cols-2 items-center bg-blue-50">
+        <Card
+          path={"news/7"}
+          variant={"N"}
+          pic={photo8}
+          text={t("article.news7.title")}
+          title={t("article.news7.intro")}
+        />
         <Card
           path={"news/4"}
           variant={"N"}
@@ -39,8 +47,8 @@ export const Article = () => {
           path={"news/6"}
           variant={"N"}
           pic={photo5}
-          text={t("article.news5.title")}
-          title={t("article.news5.intro")}
+          text={t("article.news6.title")}
+          title={t("article.news6.intro")}
         />
         <Card
           pic={photo}
