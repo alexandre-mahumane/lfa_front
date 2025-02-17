@@ -31,7 +31,7 @@ export const Member = () => {
     },
     {
       id: "tania-carlos",
-      name: "Tânia Carlos",
+      name: "Tânia Carlos Michaque",
       photo: pic9,
       position: t("team.collaborators.tania-carlos.practice-areas.position"),
       professionalExperience: t(
