@@ -50,12 +50,6 @@ export const Team = () => {
       cargo: t("team.collaborators.leonardo-ngariamao.practice-areas.position"),
     },
     {
-      id: "luisa-fazenda",
-      name: "Luísa Job Fazenda",
-      photo: pic5,
-      cargo: t("team.collaborators.luisa-fazenda.practice-areas.position"),
-    },
-    {
       id: "carlitos-jeremias",
       name: "Carlitos Jeremias Abdala",
       photo: pic8,
@@ -68,6 +62,12 @@ export const Team = () => {
       cargo: t("team.collaborators.tania-carlos.practice-areas.position"),
     },
 
+    {
+      id: "luisa-fazenda",
+      name: "Luísa Job Fazenda",
+      photo: pic5,
+      cargo: t("team.collaborators.luisa-fazenda.practice-areas.position"),
+    },
     {
       id: "andre-matenga",
       name: "André Matenga",

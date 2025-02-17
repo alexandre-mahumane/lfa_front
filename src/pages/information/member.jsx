@@ -63,7 +63,7 @@ export const Member = () => {
     },
     {
       id: "carlitos-jeremias",
-      name: "Carlitos Abdala  Jeremias",
+      name: "Carlitos Jeremias Abdala",
       photo: pic8,
       position: t(
         "team.collaborators.carlitos-jeremias.practice-areas.position"
