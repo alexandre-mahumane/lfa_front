@@ -304,7 +304,8 @@
   "skills": {
     "link": "area-of-pratice",
     "title": "Areas of Practice",
-    "text": "LFA Lawyers, Ltd. is a law firm that provides consulting and legal advisory services, judicial sponsorship, and legal assistance in various matters, with a major focus on the following areas: Labor Law, Commercial Law, Administrative Law, Criminal Law, Tax Law, Civil Law, and related Procedural Law.",
+    "text": "LFA Lawyers, Ltd. is a law firm that provides ",
+    "service": "consulting and legal advisory services, judicial sponsorship, and legal assistance in various matters, with a major focus on the following areas: Labor Law, Commercial Law, Administrative Law, Criminal Law, Tax Law, Civil Law, and related Procedural Law.",
     "text2": "LFA Lawyers, Lda offers specialized services in the following areas of law:",
 
     "area1": {

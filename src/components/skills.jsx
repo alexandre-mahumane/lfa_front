@@ -18,9 +18,10 @@ export const Skills = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="mt-4"
+            className="mt-4 "
           >
             {t("skills.text")}
+            <span className="font-bold">{t("skills.service")}</span>
           </motion.p>
           <LinkComponent path={"skills"} />
         </div>

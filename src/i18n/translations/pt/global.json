@@ -302,7 +302,8 @@
   "skills": {
     "link": "areas-de-competencia",
     "title": "Áreas de Actuação",
-    "text": "A LFA Advogados, Lda é um escritório de advogados que presta serviços de Consultoria e Assessoria Jurídica, Patrocínio Judicial, Assistência Jurídica em diversas matérias com maior enfoque para as seguintes áreas Direito Laboral, Direito Comercial, Direito Administrativo, Direito Criminal, Direito Fiscal, Direito Civil e Direito Processual conexo.",
+    "text": "A LFA Advogados, Lda é um escritório de advogados que presta serviços de ",
+    "service": "Consultoria e Assessoria Jurídica, Patrocínio Judicial, Assistência Jurídica em diversas matérias com maior enfoque para as seguintes áreas Direito Laboral, Direito Comercial, Direito Administrativo, Direito Criminal, Direito Fiscal, Direito Civil e Direito Processual conexo.",
     "text2": "A LFA Advogados, Lda oferece serviços especializados nas seguintes áreas do Direito:",
     "area1": {
       "title": "Consultoria e Assessoria Jurídica",
