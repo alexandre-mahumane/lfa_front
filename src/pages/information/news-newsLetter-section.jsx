@@ -13,6 +13,7 @@ import { useParams } from "react-router-dom";
 import { TitleComponent } from "../../components/title";
 import { Navbar } from "../../components/navbar/navbar";
 import { Footer } from "../../components/footer";
+import { WhatsApp } from "../../components/contact/whatsapp";
 
 export const News = () => {
   const { id } = useParams();
@@ -117,6 +118,7 @@ export const News = () => {
         </div>
       </section>
       <Footer />
+      <WhatsApp />
     </>
   );
 };

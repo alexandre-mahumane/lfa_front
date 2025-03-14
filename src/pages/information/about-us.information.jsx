@@ -4,6 +4,7 @@ import { TitleComponent } from "../../components/title";
 import { Navbar } from "../../components/navbar/navbar";
 import { Footer } from "../../components/footer";
 import { Link } from "react-router-dom";
+import { WhatsApp } from "../../components/contact/whatsapp";
 export const AboutUsInformation = () => {
   const { t } = useTranslation();
 
@@ -25,13 +26,16 @@ export const AboutUsInformation = () => {
           </div>
         </div>
         <div>
-        <Link 
-        className="w-fit  px-4 py-2 bg-blue-600 text-white border-2 border-blue-600 " 
-        to={"/information/contact"}>
-          {t("contacts.title")}
-        </Link></div>
+          <Link
+            className="w-fit  px-4 py-2 bg-blue-600 text-white border-2 border-blue-600 "
+            to={"/information/contact"}
+          >
+            {t("contacts.title")}
+          </Link>
+        </div>
       </section>
       <Footer />
+      <WhatsApp />
     </>
   );
 };

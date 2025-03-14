@@ -4,8 +4,9 @@ import { useTranslation } from "react-i18next";
 import { TitleComponent } from "../../components/title";
 import { Navbar } from "../../components/navbar/navbar";
 import { Footer } from "../../components/footer";
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { WhatsApp } from "../../components/contact/whatsapp";
 
 export const SkillsInformation = () => {
   const { t } = useTranslation();
@@ -37,7 +38,7 @@ export const SkillsInformation = () => {
   ];
 
   return (
-    <> 
+    <>
       <Navbar />
       <section className="min-h-screen flex justify-center items-center bg-gray-50 text-gray-800">
         <div className="bg-white space-y-8 p-8 max-w-4xl w-full">
@@ -50,7 +51,7 @@ export const SkillsInformation = () => {
                 <h2
                   onClick={() => toggleTextVisibility(index)}
                   className={`text-2xl cursor-pointer transition duration-300 flex justify-between items-center ${
-                    visibleIndex === index ? 'text-blue-600' : ''
+                    visibleIndex === index ? "text-blue-600" : ""
                   }`}
                 >
                   {skill.title}
@@ -65,12 +66,16 @@ export const SkillsInformation = () => {
                       <div key={subIndex}>
                         <h3
                           onClick={() => toggleSubTextVisibility(subIndex)}
-                          className={`text-xl cursor-pointer transition duration-300 flex justify-between items-center ${
-                            visibleSubIndex === subIndex ? 'text-blue-500' : ''
+                          className={`text-xl hover:text-blue-600 cursor-pointer transition duration-300 flex justify-between items-center ${
+                            visibleSubIndex === subIndex ? "text-blue-500" : ""
                           }`}
                         >
                           {subSkill.title}
-                          {visibleSubIndex === subIndex ? <FaChevronUp /> : <FaChevronDown />}
+                          {visibleSubIndex === subIndex ? (
+                            <FaChevronUp />
+                          ) : (
+                            <FaChevronDown />
+                          )}
                         </h3>
                         {visibleSubIndex === subIndex && (
                           <p className="text-base mt-2">{subSkill.text}</p>
@@ -83,8 +88,8 @@ export const SkillsInformation = () => {
             ))}
           </div>
           <div>
-            <Link 
-              className="w-fit px-4 py-2 bg-blue-600 text-white border-2 border-blue-600" 
+            <Link
+              className="w-fit px-4 py-2 bg-blue-600 text-white border-2 border-blue-600"
               to={"/information/contact"}
             >
               {t("contacts.title")}
@@ -93,6 +98,7 @@ export const SkillsInformation = () => {
         </div>
       </section>
       <Footer />
+      <WhatsApp />
     </>
   );
 };

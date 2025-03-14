@@ -13,6 +13,7 @@ import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { Footer } from "../../components/footer";
 import { Navbar } from "../../components/navbar/navbar";
+import { WhatsApp } from "../../components/contact/whatsapp";
 
 export const Member = () => {
   const { id } = useParams();
@@ -178,6 +179,7 @@ export const Member = () => {
         </div>
       </section>
       <Footer />
+      <WhatsApp />
     </>
   );
 };

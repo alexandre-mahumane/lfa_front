@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
+import { CiPhone } from "react-icons/ci";
 
 export const Contact = () => {
   const { t } = useTranslation();
@@ -39,21 +40,21 @@ export const Contact = () => {
           href="tel:+258877499115"
           className="text-blue-600 underline mt-2 flex items-center"
         >
-          <AiOutlinePhone className="mr-2" />
+          <CiPhone className="mr-2" />
           (+258) 87 749 9115
         </a>
         <a
           href="tel:+258847499116"
           className="text-blue-600 underline mt-2 flex items-center"
         >
-          <AiOutlinePhone className="mr-2" />
+          <CiPhone className="mr-2" />
           (+258) 84 749 9116
         </a>
         <a
           href="tel:+258847893310"
           className="text-blue-600 underline mt-2 flex items-center"
         >
-          <AiOutlinePhone className="mr-2" />
+          <CiPhone className="mr-2" />
           (+258) 84 789 3310
         </a>
       </div>
