@@ -40,50 +40,53 @@ export const Contact = () => {
           href="tel:+258877499115"
           className="text-blue-600 underline mt-2 flex items-center"
         >
-          <CiPhone className="mr-2" />
+          <CiPhone size={24} className="mr-2" />
           (+258) 87 749 9115
         </a>
         <a
           href="tel:+258847499116"
           className="text-blue-600 underline mt-2 flex items-center"
         >
-          <CiPhone className="mr-2" />
+          <CiPhone size={24} className="mr-2" />
           (+258) 84 749 9116
         </a>
         <a
           href="tel:+258847893310"
           className="text-blue-600 underline mt-2 flex items-center"
         >
-          <CiPhone className="mr-2" />
+          <CiPhone size={24} className="mr-2" />
           (+258) 84 789 3310
         </a>
       </div>
 
       <h5 className="font-semibold">{t("placeholders.var3")}</h5>
-      <div className="flex space-x-4 mt-6">
+      <div className="flex space-y-4 flex-col mt-6">
         <a
           href="https://web.facebook.com/LFAAdvocacia"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-600 text-2xl"
+          className="text-blue-600 flex space-x-4 text-lg"
         >
-          <FaFacebookF />
+          <FaFacebookF size={28} />
+          <span>Facebook</span>
         </a>
         <a
           href="https://www.linkedin.com/company/lfa-advogados-ldta/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-600 text-2xl"
+          className="text-blue-600 flex space-x-4 text-lg"
         >
-          <FaLinkedinIn />
+          <FaLinkedinIn size={28} />
+          <span>LinkedinIn</span>
         </a>
         <a
           href="https://www.instagram.com/lfa.advogados/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-pink-600 text-2xl"
+          className="text-pink-600 flex space-x-4 text-lg"
         >
-          <FaInstagram />
+          <FaInstagram size={28} />
+          <span>Instagram</span>
         </a>
       </div>
       <ContactForm />
