@@ -77,7 +77,7 @@ export const Contact = () => {
           <FaLinkedinIn />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/lfa.advogados/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-pink-600 text-2xl"
