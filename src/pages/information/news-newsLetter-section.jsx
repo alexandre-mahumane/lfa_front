@@ -57,31 +57,23 @@ export const News = () => {
           </div>
           <div className="space-y-5 w-full">
             <div>
-              <h3 className="font-bold text-blue-600">
-                {t(`article.${content}.body.section1.title`)}
-              </h3>
+              <h3 className="font-bold text-blue-600"></h3>
               <p>{t(`article.${content}.body.section1.text`)}</p>
             </div>
             <div>
-              <h3 className="font-bold text-blue-600">
-                {t(`article.${content}.body.section2.title`)}
-              </h3>
+              <h3 className="font-bold text-blue-600"></h3>
               <p>{t(`article.${content}.body.section2.text`)}</p>
             </div>
             {content == "news2" ||
               (content == "news1" && (
                 <div>
-                  <h3 className="font-bold text-blue-600">
-                    {t(`article.${content}.body.section3.title`)}
-                  </h3>
+                  <h3 className="font-bold text-blue-600"></h3>
                   <p>{t(`article.${content}.body.section3.text`)}</p>
                 </div>
               ))}
             {content == "news2" && (
               <div>
-                <h3 className="font-bold text-blue-600">
-                  {t(`article.${content}.body.section4.title`)}
-                </h3>
+                <h3 className="font-bold text-blue-600"></h3>
                 <p>{t(`article.${content}.body.section4.text`)}</p>
               </div>
             )}
@@ -95,22 +87,16 @@ export const News = () => {
                   />
                 </div>
                 <div>
-                  <h3 className="font-bold text-blue-600">
-                    {t(`article.${content}.body.section4.title`)}
-                  </h3>
+                  <h3 className="font-bold text-blue-600"></h3>
                   <p>{t(`article.${content}.body.section4.text`)}</p>
                 </div>
               </div>
             )}
             {content == "news7" && (
               <div className="space-y-5 w-full">
-                <h3 className="font-bold text-blue-600">
-                  {t(`article.${content}.body.section4.title`)}
-                </h3>
+                <h3 className="font-bold text-blue-600"></h3>
                 <p>{t(`article.${content}.body.section4.text`)}</p>
-                <h3 className="font-bold text-blue-600">
-                  {t(`article.${content}.body.section5.title`)}
-                </h3>
+                <h3 className="font-bold text-blue-600"></h3>
                 <p>{t(`article.${content}.body.section5.text`)}</p>
               </div>
             )}
