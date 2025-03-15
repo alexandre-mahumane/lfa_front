@@ -77,7 +77,7 @@ export const Contact = () => {
           className="text-blue-600 flex space-x-4 text-lg"
         >
           <FaLinkedinIn size={28} />
-          <span>LinkedinIn</span>
+          <span>LinkedIn</span>
         </a>
         <a
           href="https://www.instagram.com/lfa.advogados/"
