@@ -25,7 +25,7 @@ export const WhyLfaInformation = () => {
   return (
     <>
       <Navbar />
-      <section className="min-h-screen flex justify-center items-center bg-gray-50 text-gray-800">
+      <section className="min-h-screen flex justify-center mt-16 lg:mt-6 items-center bg-gray-50 text-gray-800">
         <div className="bg-white space-y-8  p-8 max-w-4xl w-full">
           <TitleComponent text={t(`whyLfa.title`)} />
           <p className="text-lg">{t(`whyLfa.reason`)}</p>
