@@ -286,6 +286,32 @@
         "education": {
           "highest-education": "Ensino médio completo"
         }
+      },
+      "wardah-chemade": {
+        "practice-areas": {
+          "position": "Recepcionista"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2018",
+            "position": "Participante em capacitação sobre Técnicas de Enquadramento no Mercado de Trabalho na empresa CharbanúRH-Consultoria e Capacitação."
+          },
+          {
+            "year-range": "2012",
+            "position": "Curso de informática (Word, Excel e Power Point) na Rádio Moçambique."
+          },
+          {
+            "year-range": "Indefinido",
+            "position": "Activista comunitária em campanhas contra o HIV-SIDA e Violência de Gênero."
+          },
+          {
+            "year-range": "Atual",
+            "position": "Trabalho com confeição de refeições, salgados, doces e sobremesas."
+          }
+        ],
+        "education": {
+          "highest-education": "Licenciatura em Administração (ESEG) – Frequência concluída, trabalho final submetido."
+        }
       }
     }
   },

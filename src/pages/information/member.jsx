@@ -9,6 +9,7 @@ import pic6 from "../../assets/lawyer6.png";
 import pic7 from "../../assets/lawyer7.png";
 import pic8 from "../../assets/lawyer8.png";
 import pic9 from "../../assets/lawyer9.png";
+import pic10 from "../../assets/lawyer10.jpg";
 import { useTranslation } from "react-i18next";
 import { useParams } from "react-router-dom";
 import { Footer } from "../../components/footer";
@@ -113,6 +114,16 @@ export const Member = () => {
       position: t("team.collaborators.andre-matenga.practice-areas.position"),
       professionalExperience: t(
         "team.collaborators.andre-matenga.professional-experience",
+        { returnObjects: true }
+      ),
+    },
+    {
+      id: "wardah-chemade",
+      name: "Wardah Chemade",
+      photo: pic10,
+      position: t("team.collaborators.wardah-chemade.practice-areas.position"),
+      professionalExperience: t(
+        "team.collaborators.wardah-chemade.professional-experience",
         { returnObjects: true }
       ),
     },

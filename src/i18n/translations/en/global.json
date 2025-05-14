@@ -298,6 +298,32 @@
         "education": {
           "highest-education": "High School Diploma"
         }
+      },
+      "wardah-chemade": {
+        "practice-areas": {
+          "position": "Receptionist"
+        },
+        "professional-experience": [
+          {
+            "year-range": "2018",
+            "position": "Participant in Training on Job Market Integration Techniques at CharbanúRH - Consulting and Training."
+          },
+          {
+            "year-range": "2012",
+            "position": "Completed Computer Course (Word, Excel, PowerPoint) at Rádio Moçambique."
+          },
+          {
+            "year-range": "Undated",
+            "position": "Community activist in HIV/AIDS and Gender-Based Violence campaigns."
+          },
+          {
+            "year-range": "Current",
+            "position": "Works in food preparation: meals, savory snacks, sweets, and desserts."
+          }
+        ],
+        "education": {
+          "highest-education": "Bachelor's degree in Administration (ESEG) – coursework completed, final thesis submitted."
+        }
       }
     }
   },
